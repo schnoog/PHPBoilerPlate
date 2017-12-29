@@ -7,6 +7,7 @@ $navdata = array();
 
 define("DEBUGOUT",true);
 
+///PAGE
 $Settings['page'] = array(
             'baseurl' => 'https://localhost/',
             'ajaxurl' => 'https://localhost/ajax/',
@@ -15,8 +16,8 @@ $Settings['page'] = array(
             'description' => "descritptopopop",
             'mailservice' => "OwnBoilderPlate",
             'projectname' => "Own boilerplate",
-            'js_to_include'  => "",
-            'sectoken'      => ''
+            'js_to_include'  => "",  // leave it empty
+            'sectoken'      => ''   //leave it emptpy
             
 
         );
@@ -29,7 +30,7 @@ $Settings['pages'] = array(
         'notfound'    => 'notfound' //'notfound'
         );
         
-
+///MAIL
 $Settings['mail'] =array(
         'port'     => 587,
         'host'     => 'localhost',
@@ -38,7 +39,7 @@ $Settings['mail'] =array(
         'name'     => 'mailsendername'
         );
         
-
+///DATABASE
 $Settings['db']= array(
         'host'     => 'localhost',
         'dbdriver' => 'mysql',
@@ -57,7 +58,7 @@ $Settings['langs']['active'] = 'en_GB'; //will be overwritten by user
 $Settings['langs']['defaultdomain'] = 'core';
 
 
-
+///SECURITY
 $Settings['security'] = array (
                                 'pwminlength' => 8,
                                 'token' => array ('salt' => 'come on, create you own salt to make your system more secure'),

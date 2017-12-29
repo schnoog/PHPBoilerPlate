@@ -31,9 +31,61 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 - werx/validation -- werx/validation (https://github.com/werx/validation |MIT License)
 - jQuery Form Validator -- formvalidator.net (http://www.formvalidator.net |MIT License)
 
-### Requirements
+## Requirements
 - A webserver capable to run php (with intl extension, PHP 5.6.0+, PDO extension , OpenSSL extension)
 - A MySQL database server (MySQL 5.5.3+ or MariaDB 5.5.23+)
 - To use internationalisation, you may need to run locale-gen on your linux server
 - composer (even if this project is not deployed over composer [yet], the required libraries are loaded and auto included with it)
-- 
+
+## Installation
+The installation directory should not be web accessible. Only the public folder needs to be web readable.
+
+### Get the files
+
+#### GIT based installation
+- Clone the git repository to you server
+- Open the console and change the directory to the target directory, where you want to create the checkout
+```
+git clone https://github.com/schnoog/PHPBoilerPlate.git
+```
+#### Download based installation
+- Download the zip file and extract it to your webserver
+```
+https://github.com/schnoog/PHPBoilerPlate/archive/master.zip
+```
+
+### Install the depencies
+Install the depencies by using composer
+```
+$ composer install
+```
+
+### Create a database (if you have one, skip this step)
+Create a database for your application.
+
+### Create the database structure and import the base data
+1. app/SETUP/01_UserTables.sql
+2. app/SETUP/02_PageStructure.sql
+3. app/SETUP/03_BaseData.sql
+
+### Setup your main.config.php
+Copy the supplied sample configuration
+```
+cp app/config/main_config.php.dist app/config/main_config.php
+```
+#### Edit at least the following sections:
+- ///PAGE (set you page url and your ajax backend url)
+- ///DATABASE (setup your database credentials)
+- ///SECURITY (set the token to a random string)
+
+## Done
+You should now be able to access the system.
+The administrator login is
+Username: **test@test.de**
+Password: **1234abcd**
+
+
+
+
+
+
