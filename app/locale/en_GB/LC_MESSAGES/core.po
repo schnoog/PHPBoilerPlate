@@ -1,0 +1,2528 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-12-29 22:15+0100\n"
+"PO-Revision-Date: 2017-12-29 22:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: smarty_modifier_gettext\n"
+"X-Poedit-SearchPath-0: app/func\n"
+"X-Poedit-SearchPath-1: app/pages\n"
+"X-Poedit-SearchPath-2: public\n"
+"X-Poedit-SearchPath-3: app/templates\n"
+"X-Poedit-SearchPath-4: app/templates_ajax\n"
+"X-Poedit-SearchPath-5: app/smarty/templates_c\n"
+
+#: app/func/datalists.php:6
+msgid "Afghanistan"
+msgstr "Afghanistan"
+
+#: app/func/datalists.php:7
+msgid "Albania"
+msgstr "Albania"
+
+#: app/func/datalists.php:8
+msgid "Algeria"
+msgstr "Algeria"
+
+#: app/func/datalists.php:9
+msgid "American Samoa"
+msgstr "American Samoa"
+
+#: app/func/datalists.php:10
+msgid "Andorra"
+msgstr "Andorra"
+
+#: app/func/datalists.php:11
+msgid "Angola"
+msgstr "Angola"
+
+#: app/func/datalists.php:12
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: app/func/datalists.php:13
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: app/func/datalists.php:14
+msgid "Antigua and Barbuda"
+msgstr "Antigua and Barbuda"
+
+#: app/func/datalists.php:15
+msgid "Argentina"
+msgstr "Argentina"
+
+#: app/func/datalists.php:16
+msgid "Armenia"
+msgstr "Armenia"
+
+#: app/func/datalists.php:17
+msgid "Aruba"
+msgstr "Aruba"
+
+#: app/func/datalists.php:18
+msgid "Australia"
+msgstr "Australia"
+
+#: app/func/datalists.php:19
+msgid "Austria"
+msgstr "Austria"
+
+#: app/func/datalists.php:20
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: app/func/datalists.php:21
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: app/func/datalists.php:22
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: app/func/datalists.php:23
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: app/func/datalists.php:24
+msgid "Barbados"
+msgstr "Barbados"
+
+#: app/func/datalists.php:25
+msgid "Belarus"
+msgstr "Belarus"
+
+#: app/func/datalists.php:26
+msgid "Belgium"
+msgstr "Belgium"
+
+#: app/func/datalists.php:27
+msgid "Belize"
+msgstr "Belize"
+
+#: app/func/datalists.php:28
+msgid "Benin"
+msgstr "Benin"
+
+#: app/func/datalists.php:29
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: app/func/datalists.php:30
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: app/func/datalists.php:31
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: app/func/datalists.php:32
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia and Herzegovina"
+
+#: app/func/datalists.php:33
+msgid "Botswana"
+msgstr "Botswana"
+
+#: app/func/datalists.php:34
+msgid "Bouvet Island"
+msgstr "Bouvet Island"
+
+#: app/func/datalists.php:35
+msgid "Brazil"
+msgstr "Brazil"
+
+#: app/func/datalists.php:36
+msgid "British Antarctic Territory"
+msgstr "British Antarctic Territory"
+
+#: app/func/datalists.php:37
+msgid "British Indian Ocean Territory"
+msgstr "British Indian Ocean Territory"
+
+#: app/func/datalists.php:38
+msgid "British Virgin Islands"
+msgstr "British Virgin Islands"
+
+#: app/func/datalists.php:39
+msgid "Brunei"
+msgstr "Brunei"
+
+#: app/func/datalists.php:40
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: app/func/datalists.php:41
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: app/func/datalists.php:42
+msgid "Burundi"
+msgstr "Burundi"
+
+#: app/func/datalists.php:43
+msgid "Cambodia"
+msgstr "Cambodia"
+
+#: app/func/datalists.php:44
+msgid "Cameroon"
+msgstr "Cameroon"
+
+#: app/func/datalists.php:45
+msgid "Canada"
+msgstr "Canada"
+
+#: app/func/datalists.php:46
+msgid "Canton and Enderbury Islands"
+msgstr "Canton and Enderbury Islands"
+
+#: app/func/datalists.php:47
+msgid "Cape Verde"
+msgstr "Cape Verde"
+
+#: app/func/datalists.php:48
+msgid "Cayman Islands"
+msgstr "Cayman Islands"
+
+#: app/func/datalists.php:49
+msgid "Central African Republic"
+msgstr "Central African Republic"
+
+#: app/func/datalists.php:50
+msgid "Chad"
+msgstr "Chad"
+
+#: app/func/datalists.php:51
+msgid "Chile"
+msgstr "Chile"
+
+#: app/func/datalists.php:52
+msgid "China"
+msgstr "China"
+
+#: app/func/datalists.php:53
+msgid "Christmas Island"
+msgstr "Christmas Island"
+
+#: app/func/datalists.php:54
+msgid "Cocos [Keeling] Islands"
+msgstr "Cocos [Keeling] Islands"
+
+#: app/func/datalists.php:55
+msgid "Colombia"
+msgstr "Colombia"
+
+#: app/func/datalists.php:56
+msgid "Comoros"
+msgstr "Comoros"
+
+#: app/func/datalists.php:57
+msgid "Congo - Brazzaville"
+msgstr "Congo - Brazzaville"
+
+#: app/func/datalists.php:58
+msgid "Congo - Kinshasa"
+msgstr "Congo - Kinshasa"
+
+#: app/func/datalists.php:59
+msgid "Cook Islands"
+msgstr "Cook Islands"
+
+#: app/func/datalists.php:60
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: app/func/datalists.php:61
+msgid "Croatia"
+msgstr "Croatia"
+
+#: app/func/datalists.php:62
+msgid "Cuba"
+msgstr "Cuba"
+
+#: app/func/datalists.php:63
+msgid "Cyprus"
+msgstr "Cyprus"
+
+#: app/func/datalists.php:64
+msgid "Czech Republic"
+msgstr "Czech Republic"
+
+#: app/func/datalists.php:65
+msgid "Côte d’Ivoire"
+msgstr "Côte d’Ivoire"
+
+#: app/func/datalists.php:66
+msgid "Denmark"
+msgstr "Denmark"
+
+#: app/func/datalists.php:67
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: app/func/datalists.php:68
+msgid "Dominica"
+msgstr "Dominica"
+
+#: app/func/datalists.php:69
+msgid "Dominican Republic"
+msgstr "Dominican Republic"
+
+#: app/func/datalists.php:70
+msgid "Dronning Maud Land"
+msgstr "Dronning Maud Land"
+
+#: app/func/datalists.php:71
+msgid "East Germany"
+msgstr "East Germany"
+
+#: app/func/datalists.php:72
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: app/func/datalists.php:73
+msgid "Egypt"
+msgstr "Egypt"
+
+#: app/func/datalists.php:74
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: app/func/datalists.php:75
+msgid "Equatorial Guinea"
+msgstr "Equatorial Guinea"
+
+#: app/func/datalists.php:76
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: app/func/datalists.php:77
+msgid "Estonia"
+msgstr "Estonia"
+
+#: app/func/datalists.php:78
+msgid "Ethiopia"
+msgstr "Ethiopia"
+
+#: app/func/datalists.php:79
+msgid "Falkland Islands"
+msgstr "Falkland Islands"
+
+#: app/func/datalists.php:80
+msgid "Faroe Islands"
+msgstr "Faroe Islands"
+
+#: app/func/datalists.php:81
+msgid "Fiji"
+msgstr "Fiji"
+
+#: app/func/datalists.php:82
+msgid "Finland"
+msgstr "Finland"
+
+#: app/func/datalists.php:83
+msgid "France"
+msgstr "France"
+
+#: app/func/datalists.php:84
+msgid "French Guiana"
+msgstr "French Guiana"
+
+#: app/func/datalists.php:85
+msgid "French Polynesia"
+msgstr "French Polynesia"
+
+#: app/func/datalists.php:86
+msgid "French Southern Territories"
+msgstr "French Southern Territories"
+
+#: app/func/datalists.php:87
+msgid "French Southern and Antarctic Territories"
+msgstr "French Southern and Antarctic Territories"
+
+#: app/func/datalists.php:88
+msgid "Gabon"
+msgstr "Gabon"
+
+#: app/func/datalists.php:89
+msgid "Gambia"
+msgstr "Gambia"
+
+#: app/func/datalists.php:90
+msgid "Georgia"
+msgstr "Georgia"
+
+#: app/func/datalists.php:91
+msgid "Germany"
+msgstr "Germany"
+
+#: app/func/datalists.php:92
+msgid "Ghana"
+msgstr "Ghana"
+
+#: app/func/datalists.php:93
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: app/func/datalists.php:94
+msgid "Greece"
+msgstr "Greece"
+
+#: app/func/datalists.php:95
+msgid "Greenland"
+msgstr "Greenland"
+
+#: app/func/datalists.php:96
+msgid "Grenada"
+msgstr "Grenada"
+
+#: app/func/datalists.php:97
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: app/func/datalists.php:98
+msgid "Guam"
+msgstr "Guam"
+
+#: app/func/datalists.php:99
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: app/func/datalists.php:100
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: app/func/datalists.php:101
+msgid "Guinea"
+msgstr "Guinea"
+
+#: app/func/datalists.php:102
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: app/func/datalists.php:103
+msgid "Guyana"
+msgstr "Guyana"
+
+#: app/func/datalists.php:104
+msgid "Haiti"
+msgstr "Haiti"
+
+#: app/func/datalists.php:105
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Island and McDonald Islands"
+
+#: app/func/datalists.php:106
+msgid "Honduras"
+msgstr "Honduras"
+
+#: app/func/datalists.php:107
+msgid "Hong Kong SAR China"
+msgstr "Hong Kong SAR China"
+
+#: app/func/datalists.php:108
+msgid "Hungary"
+msgstr "Hungary"
+
+#: app/func/datalists.php:109
+msgid "Iceland"
+msgstr "Iceland"
+
+#: app/func/datalists.php:110
+msgid "India"
+msgstr "India"
+
+#: app/func/datalists.php:111
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: app/func/datalists.php:112
+msgid "Iran"
+msgstr "Iran"
+
+#: app/func/datalists.php:113
+msgid "Iraq"
+msgstr "Iraq"
+
+#: app/func/datalists.php:114
+msgid "Ireland"
+msgstr "Ireland"
+
+#: app/func/datalists.php:115
+msgid "Isle of Man"
+msgstr "Isle of Man"
+
+#: app/func/datalists.php:116
+msgid "Israel"
+msgstr "Israel"
+
+#: app/func/datalists.php:117
+msgid "Italy"
+msgstr "Italy"
+
+#: app/func/datalists.php:118
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: app/func/datalists.php:119
+msgid "Japan"
+msgstr "Japan"
+
+#: app/func/datalists.php:120
+msgid "Jersey"
+msgstr "Jersey"
+
+#: app/func/datalists.php:121
+msgid "Johnston Island"
+msgstr "Johnston Island"
+
+#: app/func/datalists.php:122
+msgid "Jordan"
+msgstr "Jordan"
+
+#: app/func/datalists.php:123
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: app/func/datalists.php:124
+msgid "Kenya"
+msgstr "Kenya"
+
+#: app/func/datalists.php:125
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: app/func/datalists.php:126
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: app/func/datalists.php:127
+msgid "Kyrgyzstan"
+msgstr "Kyrgyzstan"
+
+#: app/func/datalists.php:128
+msgid "Laos"
+msgstr "Laos"
+
+#: app/func/datalists.php:129
+msgid "Latvia"
+msgstr "Latvia"
+
+#: app/func/datalists.php:130
+msgid "Lebanon"
+msgstr "Lebanon"
+
+#: app/func/datalists.php:131
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: app/func/datalists.php:132
+msgid "Liberia"
+msgstr "Liberia"
+
+#: app/func/datalists.php:133
+msgid "Libya"
+msgstr "Libya"
+
+#: app/func/datalists.php:134
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: app/func/datalists.php:135
+msgid "Lithuania"
+msgstr "Lithuania"
+
+#: app/func/datalists.php:136
+msgid "Luxembourg"
+msgstr "Luxembourg"
+
+#: app/func/datalists.php:137
+msgid "Macau SAR China"
+msgstr "Macau SAR China"
+
+#: app/func/datalists.php:138
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: app/func/datalists.php:139
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: app/func/datalists.php:140
+msgid "Malawi"
+msgstr "Malawi"
+
+#: app/func/datalists.php:141
+msgid "Malaysia"
+msgstr "Malaysia"
+
+#: app/func/datalists.php:142
+msgid "Maldives"
+msgstr "Maldives"
+
+#: app/func/datalists.php:143
+msgid "Mali"
+msgstr "Mali"
+
+#: app/func/datalists.php:144
+msgid "Malta"
+msgstr "Malta"
+
+#: app/func/datalists.php:145
+msgid "Marshall Islands"
+msgstr "Marshall Islands"
+
+#: app/func/datalists.php:146
+msgid "Martinique"
+msgstr "Martinique"
+
+#: app/func/datalists.php:147
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: app/func/datalists.php:148
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: app/func/datalists.php:149
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: app/func/datalists.php:150
+msgid "Metropolitan France"
+msgstr "Metropolitan France"
+
+#: app/func/datalists.php:151
+msgid "Mexico"
+msgstr "Mexico"
+
+#: app/func/datalists.php:152
+msgid "Micronesia"
+msgstr "Micronesia"
+
+#: app/func/datalists.php:153
+msgid "Midway Islands"
+msgstr "Midway Islands"
+
+#: app/func/datalists.php:154
+msgid "Moldova"
+msgstr "Moldova"
+
+#: app/func/datalists.php:155
+msgid "Monaco"
+msgstr "Monaco"
+
+#: app/func/datalists.php:156
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: app/func/datalists.php:157
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: app/func/datalists.php:158
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: app/func/datalists.php:159
+msgid "Morocco"
+msgstr "Morocco"
+
+#: app/func/datalists.php:160
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: app/func/datalists.php:161
+msgid "Myanmar [Burma]"
+msgstr "Myanmar [Burma]"
+
+#: app/func/datalists.php:162
+msgid "Namibia"
+msgstr "Namibia"
+
+#: app/func/datalists.php:163
+msgid "Nauru"
+msgstr "Nauru"
+
+#: app/func/datalists.php:164
+msgid "Nepal"
+msgstr "Nepal"
+
+#: app/func/datalists.php:165
+msgid "Netherlands"
+msgstr "Netherlands"
+
+#: app/func/datalists.php:166
+msgid "Netherlands Antilles"
+msgstr "Netherlands Antilles"
+
+#: app/func/datalists.php:167
+msgid "Neutral Zone"
+msgstr "Neutral Zone"
+
+#: app/func/datalists.php:168
+msgid "New Caledonia"
+msgstr "New Caledonia"
+
+#: app/func/datalists.php:169
+msgid "New Zealand"
+msgstr "New Zealand"
+
+#: app/func/datalists.php:170
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: app/func/datalists.php:171
+msgid "Niger"
+msgstr "Niger"
+
+#: app/func/datalists.php:172
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: app/func/datalists.php:173
+msgid "Niue"
+msgstr "Niue"
+
+#: app/func/datalists.php:174
+msgid "Norfolk Island"
+msgstr "Norfolk Island"
+
+#: app/func/datalists.php:175
+msgid "North Korea"
+msgstr "North Korea"
+
+#: app/func/datalists.php:176
+msgid "North Vietnam"
+msgstr "North Vietnam"
+
+#: app/func/datalists.php:177
+msgid "Northern Mariana Islands"
+msgstr "Northern Mariana Islands"
+
+#: app/func/datalists.php:178
+msgid "Norway"
+msgstr "Norway"
+
+#: app/func/datalists.php:179
+msgid "Oman"
+msgstr "Oman"
+
+#: app/func/datalists.php:180
+msgid "Pacific Islands Trust Territory"
+msgstr "Pacific Islands Trust Territory"
+
+#: app/func/datalists.php:181
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: app/func/datalists.php:182
+msgid "Palau"
+msgstr "Palau"
+
+#: app/func/datalists.php:183
+msgid "Palestinian Territories"
+msgstr "Palestinian Territories"
+
+#: app/func/datalists.php:184
+msgid "Panama"
+msgstr "Panama"
+
+#: app/func/datalists.php:185
+msgid "Panama Canal Zone"
+msgstr "Panama Canal Zone"
+
+#: app/func/datalists.php:186
+msgid "Papua New Guinea"
+msgstr "Papua New Guinea"
+
+#: app/func/datalists.php:187
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: app/func/datalists.php:188
+msgid "People's Democratic Republic of Yemen"
+msgstr "People's Democratic Republic of Yemen"
+
+#: app/func/datalists.php:189
+msgid "Peru"
+msgstr "Peru"
+
+#: app/func/datalists.php:190
+msgid "Philippines"
+msgstr "Philippines"
+
+#: app/func/datalists.php:191
+msgid "Pitcairn Islands"
+msgstr "Pitcairn Islands"
+
+#: app/func/datalists.php:192
+msgid "Poland"
+msgstr "Poland"
+
+#: app/func/datalists.php:193
+msgid "Portugal"
+msgstr "Portugal"
+
+#: app/func/datalists.php:194
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: app/func/datalists.php:195
+msgid "Qatar"
+msgstr "Qatar"
+
+#: app/func/datalists.php:196
+msgid "Romania"
+msgstr "Romania"
+
+#: app/func/datalists.php:197
+msgid "Russia"
+msgstr "Russia"
+
+#: app/func/datalists.php:198
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: app/func/datalists.php:199
+msgid "Réunion"
+msgstr "Réunion"
+
+#: app/func/datalists.php:200
+msgid "Saint Barthélemy"
+msgstr "Saint Barthélemy"
+
+#: app/func/datalists.php:201
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: app/func/datalists.php:202
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts and Nevis"
+
+#: app/func/datalists.php:203
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: app/func/datalists.php:204
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: app/func/datalists.php:205
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre and Miquelon"
+
+#: app/func/datalists.php:206
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent and the Grenadines"
+
+#: app/func/datalists.php:207
+msgid "Samoa"
+msgstr "Samoa"
+
+#: app/func/datalists.php:208
+msgid "San Marino"
+msgstr "San Marino"
+
+#: app/func/datalists.php:209
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: app/func/datalists.php:210
+msgid "Senegal"
+msgstr "Senegal"
+
+#: app/func/datalists.php:211
+msgid "Serbia"
+msgstr "Serbia"
+
+#: app/func/datalists.php:212
+msgid "Serbia and Montenegro"
+msgstr "Serbia and Montenegro"
+
+#: app/func/datalists.php:213
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: app/func/datalists.php:214
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: app/func/datalists.php:215
+msgid "Singapore"
+msgstr "Singapore"
+
+#: app/func/datalists.php:216
+msgid "Slovakia"
+msgstr "Slovakia"
+
+#: app/func/datalists.php:217
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: app/func/datalists.php:218
+msgid "Solomon Islands"
+msgstr "Solomon Islands"
+
+#: app/func/datalists.php:219
+msgid "Somalia"
+msgstr "Somalia"
+
+#: app/func/datalists.php:220
+msgid "South Africa"
+msgstr "South Africa"
+
+#: app/func/datalists.php:221
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "South Georgia and the South Sandwich Islands"
+
+#: app/func/datalists.php:222
+msgid "South Korea"
+msgstr "South Korea"
+
+#: app/func/datalists.php:223
+msgid "Spain"
+msgstr "Spain"
+
+#: app/func/datalists.php:224
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: app/func/datalists.php:225
+msgid "Sudan"
+msgstr "Sudan"
+
+#: app/func/datalists.php:226
+msgid "Suriname"
+msgstr "Surname"
+
+#: app/func/datalists.php:227
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard and Jan Mayen"
+
+#: app/func/datalists.php:228
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: app/func/datalists.php:229
+msgid "Sweden"
+msgstr "Sweden"
+
+#: app/func/datalists.php:230
+msgid "Switzerland"
+msgstr "Switzerland"
+
+#: app/func/datalists.php:231
+msgid "Syria"
+msgstr "Syria"
+
+#: app/func/datalists.php:232
+msgid "São Tomé and Príncipe"
+msgstr "São Tomé and Príncipe"
+
+#: app/func/datalists.php:233
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: app/func/datalists.php:234
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: app/func/datalists.php:235
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: app/func/datalists.php:236
+msgid "Thailand"
+msgstr "Thailand"
+
+#: app/func/datalists.php:237
+msgid "Timor-Leste"
+msgstr "Timor-Leste"
+
+#: app/func/datalists.php:238
+msgid "Togo"
+msgstr "Togo"
+
+#: app/func/datalists.php:239
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: app/func/datalists.php:240
+msgid "Tonga"
+msgstr "Tonga"
+
+#: app/func/datalists.php:241
+msgid "Trinidad and Tobago"
+msgstr "Trinidad and Tobago"
+
+#: app/func/datalists.php:242
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: app/func/datalists.php:243
+msgid "Turkey"
+msgstr "Turkey"
+
+#: app/func/datalists.php:244
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: app/func/datalists.php:245
+msgid "Turks and Caicos Islands"
+msgstr "Turks and Caicos Islands"
+
+#: app/func/datalists.php:246
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: app/func/datalists.php:247
+msgid "U.S. Minor Ouexampleying Islands"
+msgstr "U.S. Minor Ouexampleying Islands"
+
+#: app/func/datalists.php:248
+msgid "U.S. Miscellaneous Pacific Islands"
+msgstr "U.S. Miscellaneous Pacific Islands"
+
+#: app/func/datalists.php:249
+msgid "U.S. Virgin Islands"
+msgstr "U.S. Virgin Islands"
+
+#: app/func/datalists.php:250
+msgid "Uganda"
+msgstr "Uganda"
+
+#: app/func/datalists.php:251
+msgid "Ukraine"
+msgstr "Ukraine"
+
+#: app/func/datalists.php:252
+msgid "Union of Soviet Socialist Republics"
+msgstr "Union of Soviet Socialist Republics"
+
+#: app/func/datalists.php:253
+msgid "United Arab Emirates"
+msgstr "United Arab Emirates"
+
+#: app/func/datalists.php:254
+msgid "United Kingdom"
+msgstr "United Kingdom"
+
+#: app/func/datalists.php:255
+msgid "United States"
+msgstr "United States"
+
+#: app/func/datalists.php:256
+msgid "Unknown or Invalid Region"
+msgstr "Unknown or Invalid Region"
+
+#: app/func/datalists.php:257
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: app/func/datalists.php:258
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: app/func/datalists.php:259
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: app/func/datalists.php:260
+msgid "Vatican City"
+msgstr "Vatican City"
+
+#: app/func/datalists.php:261
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: app/func/datalists.php:262
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: app/func/datalists.php:263
+msgid "Wake Island"
+msgstr "Wake Island"
+
+#: app/func/datalists.php:264
+msgid "Wallis and Futuna"
+msgstr "Wallis and Futuna"
+
+#: app/func/datalists.php:265
+msgid "Western Sahara"
+msgstr "Western Sahara"
+
+#: app/func/datalists.php:266
+msgid "Yemen"
+msgstr "Yemen"
+
+#: app/func/datalists.php:267
+msgid "Zambia"
+msgstr "Zambia"
+
+#: app/func/datalists.php:268
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: app/func/datalists.php:269
+msgid "Åland Islands"
+msgstr "Åland Islands"
+
+#: app/func/mail.php:12 app/func/mail.php:36
+msgid "Your"
+msgstr "Your"
+
+#: app/func/mail.php:12
+msgid "account activation"
+msgstr "Account activation"
+
+#: app/func/mail.php:14
+msgid "In order to use our service, you'll need to activate your account"
+msgstr "In order to use our service, you'll need to activate your account"
+
+#: app/func/mail.php:19
+msgid ""
+"Once you logged in, you will be able to enter the following activation codes."
+msgstr ""
+"Once you logged in, you will be able to enter the following activation codes."
+
+#: app/func/mail.php:22
+msgid "After this, you'll be able to login again and use our service"
+msgstr "After this, you'll be able to login again and use our service"
+
+#: app/func/mail.php:23 app/func/mail.php:47
+msgid "Best regards"
+msgstr "Best regards"
+
+#: app/func/mail.php:36
+msgid "password reset"
+msgstr "Password reset"
+
+#: app/func/mail.php:38
+msgid "You just requested a password reset"
+msgstr "You just requested a password reset"
+
+#: app/func/mail.php:43
+msgid ""
+"Use the password forgotten function and enter the following activation codes"
+msgstr ""
+"Use the password forgotten function and enter the following activation codes"
+
+#: app/func/mail.php:46
+msgid "and set your new password"
+msgstr "and set your new password"
+
+#: app/func/pageroute.php:30
+msgid "Security check failed."
+msgstr "Security check failed."
+
+#: app/func/pageroute.php:31
+msgid "Please reload the page and try it again."
+msgstr "Please reload the page and try it again."
+
+#: app/func/pageroute.php:38
+msgid "You're not allowed to enter this page."
+msgstr "You're not allowed to enter this page."
+
+#: app/func/pageroute.php:39
+msgid "Beg to the admin to receive more power."
+msgstr "Beg to the admin to receive more power."
+
+#: app/func/pageroute.php:53
+msgid "Page not found."
+msgstr "Beg to the admin to receive more power."
+
+#: app/func/pageroute.php:54
+msgid "Just visit an other page that exists."
+msgstr "Just visit an other page that exists."
+
+#: app/func/vali.php:10 app/func/vali.php:42
+msgid "{name} is a required field."
+msgstr "{name} is a required field."
+
+#: app/func/vali.php:11 app/func/vali.php:43
+msgid "{name} must be a valid date."
+msgstr "{name} must be a valid date."
+
+#: app/func/vali.php:12 app/func/vali.php:44
+#, php-format
+msgid "{name} must be at least %s characters long."
+msgstr "{name} must be at least %s characters long."
+
+#: app/func/vali.php:13 app/func/vali.php:45
+#, php-format
+msgid "{name} cannot be longer than %d characters."
+msgstr "{name} cannot be longer than %d characters."
+
+#: app/func/vali.php:14 app/func/vali.php:46
+#, php-format
+msgid "{name} must be exactly %d characters."
+msgstr "{name} must be exactly %d characters."
+
+#: app/func/vali.php:15 app/func/vali.php:47
+#, php-format
+msgid "{name} must be greater than %d."
+msgstr "{name} must be greater than %d."
+
+#: app/func/vali.php:16 app/func/vali.php:48
+#, php-format
+msgid "{name} must be less than %d."
+msgstr "{name} must be less than %d."
+
+#: app/func/vali.php:17 app/func/vali.php:49
+msgid "{name} must only contain the letters A-Z."
+msgstr "{name} must only contain the letters A-Z."
+
+#: app/func/vali.php:18 app/func/vali.php:50
+msgid "{name} must only contain the letters A-Z and numbers 0-9."
+msgstr "{name} must only contain the letters A-Z and numbers 0-9."
+
+#: app/func/vali.php:19 app/func/vali.php:51
+msgid "{name} must be a whole number with no decimals"
+msgstr "{name} must be a whole number with no decimals"
+
+#: app/func/vali.php:20 app/func/vali.php:52
+msgid "{name} must be a number."
+msgstr "{name} must be a number."
+
+#: app/func/vali.php:21 app/func/vali.php:53
+msgid "{name} must be numeric."
+msgstr "{name} must be numeric."
+
+#: app/func/vali.php:22 app/func/vali.php:54
+msgid "{name} must be a valid email address."
+msgstr "{name} must be a valid email address."
+
+#: app/func/vali.php:23 app/func/vali.php:55
+msgid "{name} must be a valid url."
+msgstr "{name} must be a valid url."
+
+#: app/func/vali.php:24 app/func/vali.php:56
+msgid "{name} must be a valid phone number."
+msgstr "{name} must be a valid phone number."
+
+#: app/func/vali.php:25 app/func/vali.php:57
+msgid "{name} must be a valid zip code."
+msgstr "{name} must be a valid zip code."
+
+#: app/func/vali.php:26 app/func/vali.php:58
+#, php-format
+msgid "{name} must start with %s."
+msgstr "{name} must start with %s."
+
+#: app/func/vali.php:27 app/func/vali.php:59
+#, php-format
+msgid "{name} must end with %s."
+msgstr "{name} must end with %s."
+
+#: app/func/vali.php:28 app/func/vali.php:60
+#, php-format
+msgid "{name} must contain %s."
+msgstr "{name} must contain %s."
+
+#: app/func/vali.php:29 app/func/vali.php:61
+msgid "{name} is not in the correct format."
+msgstr "{name} is not in the correct format."
+
+#: app/pages/login.php:30 app/pages/pwreset.php:87
+msgid "Email address unknown"
+msgstr "Email address unknown"
+
+#: app/pages/login.php:35
+msgid "Password wrong"
+msgstr "Password wrong"
+
+#: app/pages/login.php:40
+msgid "Your account is not activated."
+msgstr "Your account is not activated."
+
+#: app/pages/login.php:45 app/pages/login.php:82 app/pages/profile.php:62
+#: app/pages/profile.php:83 app/pages/profile.php:106 app/pages/pwreset.php:51
+#: app/pages/pwreset.php:102 app/pages/register.php:57
+msgid "To many tries. Please come back later"
+msgstr "To many tries. Please come back later"
+
+#: app/pages/login.php:63
+msgid "Your account is now activated."
+msgstr "Your account is now activated."
+
+#: app/pages/login.php:69
+msgid "The data you entered is invalid"
+msgstr "The data you entered is invalid"
+
+#: app/pages/login.php:74
+msgid "The data is expired"
+msgstr "The data is expired"
+
+#: app/pages/login.php:78
+msgid "Already activated"
+msgstr "Already activated"
+
+#: app/pages/login.php:100
+msgid "The activation email was sent"
+msgstr "The activation email was sent"
+
+#: app/pages/login.php:110 app/pages/login.php:115
+msgid "No activation request active"
+msgstr "No activation request active"
+
+#: app/pages/profile.php:24
+msgid "Your username was successfully changed"
+msgstr "Your username was successfully changed"
+
+#: app/pages/profile.php:26
+msgid "An error occured. Name change failed"
+msgstr "An error occured. Name change failed"
+
+#: app/pages/profile.php:33
+msgid ""
+"Sorry, your entered new user name is invalid. Only alphanumeric characters "
+"and underscore are allowed"
+msgstr ""
+"Sorry, your entered new user name is invalid. Only alphanumeric characters "
+"and underscore are allowed"
+
+#: app/pages/profile.php:43
+msgid "Your email address was updated. An activation email was sent to you"
+msgstr "Your email address was updated. An activation email was sent to you"
+
+#: app/pages/profile.php:47 app/pages/register.php:42
+msgid "Invalid email address entered"
+msgstr "Invalid email address entered"
+
+#: app/pages/profile.php:51 app/pages/register.php:52
+msgid "This email account is already registered"
+msgstr "This email account is already registered"
+
+#: app/pages/profile.php:55
+msgid "Your account is not activated. No profile change possible"
+msgstr "Your account is not activated. No profile change possible"
+
+#: app/pages/profile.php:72
+msgid "Your password was updated"
+msgstr "Your password was updated"
+
+#: app/pages/profile.php:79 app/pages/profile.php:99
+msgid "The password you entered seems to be wrong"
+msgstr "The password you entered seems to be wrong"
+
+#: app/pages/profile.php:87
+msgid "You have entered an unsafe password. Not updated"
+msgstr "You have entered an unsafe password. Not updated"
+
+#: app/pages/profile.php:90
+msgid "The passwords do not match"
+msgstr "The passwords do not match"
+
+#: app/pages/pwreset.php:24
+msgid "Both new password aren't the same"
+msgstr "Both new password aren't the same"
+
+#: app/pages/pwreset.php:29
+msgid "Password resetted. You should now be able to login"
+msgstr "Password resetted. You should now be able to login"
+
+#: app/pages/pwreset.php:35
+msgid "Invalid Security-data entered"
+msgstr "Invalid Security-data entered"
+
+#: app/pages/pwreset.php:39
+msgid "Token expired"
+msgstr "Token expired"
+
+#: app/pages/pwreset.php:43 app/pages/pwreset.php:97
+msgid "Password reset disabled"
+msgstr "Password reset disabled"
+
+#: app/pages/pwreset.php:47
+msgid "Invalid (weak) password"
+msgstr "Invalid (weak) password"
+
+#: app/pages/pwreset.php:77
+msgid "The password reset email was sent"
+msgstr "The password reset email was sent"
+
+#: app/pages/pwreset.php:92
+msgid "Your account is not activated"
+msgstr "Your account is not activated"
+
+#: app/pages/register.php:20
+msgid "Passwords are not the same"
+msgstr "Passwords are not the same"
+
+#: app/pages/register.php:24
+msgid "Your password is not safe enough"
+msgstr "Your password is not secure enough"
+
+#: app/pages/register.php:34
+msgid "Your account was created. An activation email was sent to you"
+msgstr "Your account was created. An activation email was sent to you"
+
+#: app/pages/register.php:47
+msgid "Invalid password entered"
+msgstr "Invalid password entered"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:26
+msgid "Profile item"
+msgstr "Profile item"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:52
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:145
+msgid "More information"
+msgstr "More information"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:57
+msgid "Pipe-delimited list of rules"
+msgstr "Pipe-delimited list of rules"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:59
+msgid "Each rule corresponds to a method name from the Validator class"
+msgstr "Each rule corresponds to a method name from the Validator class"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:61
+msgid ""
+"If the method accepts arguments, the args should be in square brackets after "
+"the rule name"
+msgstr ""
+"If the method accepts arguments, the args should be in square brackets after "
+"the rule name"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:63
+msgid "Example: minlength[2]"
+msgstr "Example: minlength[2]"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:65
+msgid ""
+"Exception: methods which accept an array as parameter should be in curly "
+"brackets after the rule name."
+msgstr ""
+"Exception: methods which accept an array as parameter should be in curly "
+"brackets after the rule name."
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:67
+msgid "Example:"
+msgstr "Example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:68
+msgid "red,white,blue"
+msgstr "red,white,blue"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:70
+msgid ""
+"Except for the required validator, all validators will return true if the "
+"input is empty."
+msgstr ""
+"Except for the required validator, all validators will return true if the "
+"input is empty."
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:72
+msgid ""
+"In other words, minlength[2] will only actually fire if you also add a "
+"required rule."
+msgstr ""
+"In other words, minlength[2] will only actually fire if you also add a "
+"required rule."
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:75
+msgid "The following validation methods are available"
+msgstr "The following validation methods are available"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:78
+msgid "Set this if you are not allowing an empty value, example:"
+msgstr "Set this if you are not allowing an empty value, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:80
+msgid ""
+"Default: MM/DD/YYYY Other input formats available YYYY/MM/DD, YYYY-MM-DD, "
+"YYYY/DD/MM, YYYY-DD-MM, DD-MM-YYYY, DD/MM/YYYY, MM-DD-YYYY, MM/DD/YYYY, "
+"YYYYMMDD, YYYYDDMM , example:"
+msgstr ""
+"Default: MM/DD/YYYY Other input formats available YYYY/MM/DD, YYYY-MM-DD, "
+"YYYY/DD/MM, YYYY-DD-MM, DD-MM-YYYY, DD/MM/YYYY, MM-DD-YYYY, MM/DD/YYYY, "
+"YYYYMMDD, YYYYDDMM , example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:82
+msgid "Minimum length, example:"
+msgstr "Minimum length, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:84
+msgid "Maximum length, example:"
+msgstr "Maximum length, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:86
+msgid ""
+"Exact length (no need to set min- and maxlength to the same number), example:"
+msgstr ""
+"Exact length (no need to set min- and maxlength to the same number), example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:88
+msgid "Greater than (integer), example:"
+msgstr "Greater than (integer), example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:90
+msgid "Less than (integer), example:"
+msgstr "Less than (integer), example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:92
+msgid "Only a-z and A-Z are allowed, no whitespaces no special chars, example:"
+msgstr ""
+"Only a-z and A-Z are allowed, no whitespaces no special chars, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:94
+msgid ""
+"Only a-z, A-Z and 0-9 are allowed, no whitespaces no special chars, example:"
+msgstr ""
+"Only a-z, A-Z and 0-9 are allowed, no whitespaces no special chars, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:96
+msgid "Only integer values are allowed, example:"
+msgstr "Only integer values are allowed, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:98
+msgid "Only float values are allowed, example:"
+msgstr "Only float values are allowed, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:100
+msgid "Only numeric values are allowed, example:"
+msgstr "Only numeric values are allowed, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:102
+msgid "Only valid email addresses are allowed, example:"
+msgstr "Only valid email addresses are allowed, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:104
+msgid "Only valid url strings are allowed, example:"
+msgstr "Only valid url strings are allowed, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:106
+msgid "The value must be a valid <b>US</b> phone number, example:"
+msgstr "The value must be a valid <b>US</b> phone number, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:108
+msgid "The value must be a valid <b>US</b> zip code, example:"
+msgstr "The value must be a valid <b>US</b> zip code, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:110
+msgid "The value must start with the given string, example:"
+msgstr "The value must start with the given string, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:112
+msgid "The value must end with the given string, example:"
+msgstr "The value must end with the given string, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:114
+msgid "The value must contain the given string, example:"
+msgstr "The value must contain the given string, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:116
+msgid ""
+"The value must match with the given regex string ( regex without &#091; and "
+"&#093; ), example:"
+msgstr ""
+"The value must match with the given regex string ( regex without &#091; and "
+"&#093; ), example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:118
+msgid "The value must be in the given list, example:"
+msgstr "The value must be in the given list, example:"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:133
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:183
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:276
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:40
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:50
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:102
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:107
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:133
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:514
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:72
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:77
+msgid "No"
+msgstr "No"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:137
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:187
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:273
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:42
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:52
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:100
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:105
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:127
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:509
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:70
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:75
+msgid "Yes"
+msgstr "Yes"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:151
+msgid ""
+"This is intended to define the datasource for your preset. If not "
+"meaningfull for a setting (f.e. first name), leave it empty"
+msgstr ""
+"This is intended to define the datasource for your preset. If not "
+"meaningfull for a setting (f.e. first name), leave it empty"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:153
+msgid ""
+"\n"
+"                             <li> This is the main presetrequest function\n"
+"                             </li><li> It uses the \"$request\" String to "
+"get valid options (when required, for example language setting limitation on "
+"availables)\n"
+"                             </li><li> \n"
+"                             </li><li> The request should consist of (I "
+"assume the function to call is getmylist)\n"
+"                             </li><li> a) >getmylist< one function name. The "
+"function will be called without parameter $x = getmylist()\n"
+"                             </li><li> b) >getmylist:onlynice< one fuction "
+"name and one parameter, delimited by :   $x= getmylist(onlynice)\n"
+"                             </li><li> c) >getmylist:onlynice:second:...:"
+"last< one fuction name and one parameter, delimited by :   $x= "
+"getmylist(onlynice, second,....,last)\n"
+"                             </li><li> d) >SETTINGS:langs:available< an "
+"array out of the main settings\n"
+"                             </li><li> or >SETTINGS:pages<     (if a return "
+"value is not an array, it will be intergated in one $x=array($y))\n"
+"                             </li><li> \n"
+"                             </li><li> If the returned value is numeric, "
+"ensure that the value is NOT! only the array key!\n"
+"                             </li><li> \n"
+"                             </li><li> <b>Warning:</b>\n"
+"                             </li><li> The function call is not secured by "
+"any white- or blacklist. Each function available in the php enviroment is "
+"callable\n"
+"                             </li><li> Therefore this section is limited to "
+"the adminroles.\n"
+"                             </li> "
+msgstr ""
+"\n"
+"                             <li> This is the main presetrequest function\n"
+"                             </li><li> It uses the \"$request\" String to "
+"get valid options (when required, for example language setting limitation on "
+"availables)\n"
+"                             </li><li> \n"
+"                             </li><li> The request should consist of (I "
+"assume the function to call is getmylist)\n"
+"                             </li><li> a) >getmylist< one function name. The "
+"function will be called without parameter $x = getmylist()\n"
+"                             </li><li> b) >getmylist:onlynice< one fuction "
+"name and one parameter, delimited by :   $x= getmylist(onlynice)\n"
+"                             </li><li> c) >getmylist:onlynice:second:...:"
+"last< one fuction name and several parameter, delimited by :   $x= "
+"getmylist(onlynice, second,....,last)\n"
+"                             </li><li> d) >SETTINGS:langs:available< an "
+"array out of the main settings\n"
+"                             </li><li> or >SETTINGS:pages<     (if a return "
+"value is not an array, it will be intergated in one $x=array($y))\n"
+"                             </li><li> \n"
+"                             </li><li> If the returned value is numeric, "
+"ensure that the value is NOT! only the array key!\n"
+"                             </li><li> \n"
+"                             </li><li> <b>Warning:</b>\n"
+"                             </li><li> The function call is not secured by "
+"any white- or blacklist. Each function available in the php enviroment is "
+"callable\n"
+"                             </li><li> Therefore this section is limited to "
+"the adminroles.\n"
+"                             </li> "
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:203
+msgid "Add a new profile field"
+msgstr "Add a new profile field"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:210
+msgid "ID"
+msgstr "ID"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:214
+msgid "Item key"
+msgstr "Item key"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:218
+msgid "Item desc."
+msgstr "Item desc."
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:222
+msgid "Item default value"
+msgstr "Item default value"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:226
+msgid "Validation parameter"
+msgstr "Validation parameter"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:230
+msgid "Is required"
+msgstr "Is required"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:234
+msgid "Preset values"
+msgstr "Preset values"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:238
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:78
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:42
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:48
+msgid "Actions"
+msgstr "Actions"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:286
+msgid "Edit"
+msgstr "Edit"
+
+#: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:289
+msgid "Delete"
+msgstr "Delete"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:33
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:36
+msgid "Page Title"
+msgstr "Page Title"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:37
+msgid "System-Page"
+msgstr "System-Page"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:47
+msgid "Use the ACL system"
+msgstr "Use the ACL system"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:56
+#: app/smarty/templates_c/5f18ce94b92aca9b1e75236300910fd084b8549e_0.file.admin_sys_tools.tpl.php:32
+msgid "Access control to the page"
+msgstr "Access control to the page"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:57
+#: app/smarty/templates_c/5f18ce94b92aca9b1e75236300910fd084b8549e_0.file.admin_sys_tools.tpl.php:33
+msgid "If no group is selected, access is garanted to everyone"
+msgstr "If no group is selected, access is garanted to everyone"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:62
+msgid "Save your changes"
+msgstr "Save your changes"
+
+#: app/smarty/templates_c/1dfa4ff41f55e0499e910a40118838dd904b4ff7_0.file.admin_sys_pageedit.tpl.php:64
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:125
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:132
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:71
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:77
+msgid "Cancel"
+msgstr "Cancel"
+
+#: app/smarty/templates_c/2e5b88863ae137775d152c722133b1ce6749d36a_0.file.docman.tpl.php:57
+msgid "Documentation Manager"
+msgstr "Documentation Manager"
+
+#: app/smarty/templates_c/2e5b88863ae137775d152c722133b1ce6749d36a_0.file.docman.tpl.php:59
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:61
+msgid "Open Documentation table"
+msgstr "Open Documentation table"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:28
+msgid "Create a new document"
+msgstr "Create a new document"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:34
+msgid "DocID"
+msgstr "DocID"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:35
+msgid "Doc-Section"
+msgstr "Doc-Section"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:36
+msgid "Doc-Topic"
+msgstr "Doc-Topic"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:37
+msgid "Doc"
+msgstr "Doc"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:38
+msgid "Further Reads"
+msgstr "Further Reads"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:39
+msgid "Work"
+msgstr "Work"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:101
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:161
+msgid "Add a new section"
+msgstr "Add a new section"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:105
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:107
+msgid "Topic"
+msgstr "Topic"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:117
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:119
+msgid "Further (keywords...)"
+msgstr "Further (keywords...)"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:123
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:130
+msgid "Save"
+msgstr "Save"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:149
+msgid "Parent"
+msgstr "Parent"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:153
+msgid "Section Name"
+msgstr "Section Name"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:155
+msgid "Add the section label here (keep it short)"
+msgstr "Add the section label here (keep it short)"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:157
+msgid "Section (short) description"
+msgstr "Section (short) description"
+
+#: app/smarty/templates_c/2e8f14ee85fd6ae053207fb499c4fc21dce3bae2_0.file.docman.ajax.tpl.php:159
+msgid "Add the section description here (keep it short)"
+msgstr "Add the section description here (keep it short)"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:60
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:30
+msgid "User-ID"
+msgstr "User-ID"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:62
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:32
+msgid "Username"
+msgstr "Username"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:64
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:34
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:66
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:36
+msgid "Status"
+msgstr "Status"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:68
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:88
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:38
+msgid "Verified"
+msgstr "Verified"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:70
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:40
+msgid "Resetable"
+msgstr "Resetable"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:72
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:42
+msgid "User-Roles"
+msgstr "User-Roles"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:74
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:44
+msgid "Registered"
+msgstr "Registered"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:76
+#: app/smarty/templates_c/acde9dc2d40a042db9c54e0972b8305a59c63419_0.file.admin_user_table.tpl.php:46
+msgid "Last-Login"
+msgstr "Last-Login"
+
+#: app/smarty/templates_c/4095d2fefcdec9110368949df0052eb0ea391e3e_0.file.admin_userman.tpl.php:137
+msgid "Edit User"
+msgstr "Edit User"
+
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:66
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:79
+msgid "All templates were compiled."
+msgstr "All templates were compiled."
+
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:116
+msgid ""
+"Please enter a name for the page (3chars min, alphanumeric only!)<br />The "
+"pagename will be converted to  <b>lowercase</b>."
+msgstr ""
+"Please enter a name for the page (3chars min, alphanumeric only!)<br />The "
+"pagename will be converted to  <b>lowercase</b>."
+
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:122
+msgid ""
+"Should a javascript template and an AJAX backend be created (default: Yes)"
+msgstr ""
+"Should a javascript template and an AJAX backend be created (default: Yes)"
+
+#: app/smarty/templates_c/48ea9704827977a4a4857ba350da637242cb1e6f_0.file.js_admin_sysman.tpl.php:505
+msgid ""
+"Do you really want to delete this profile field?<br />This will delete also "
+"all corresponding user settings"
+msgstr ""
+"Do you really want to delete this profile field?<br />This will delete also "
+"all corresponding user settings"
+
+#: app/smarty/templates_c/5f18ce94b92aca9b1e75236300910fd084b8549e_0.file.admin_sys_tools.tpl.php:38
+msgid "Get the number"
+msgstr "Get the number"
+
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:34
+msgid "Profile field"
+msgstr "Profile field"
+
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:38
+msgid "Profile field value"
+msgstr "Profile field value"
+
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:67
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:145
+msgid "This Setting is required to complete your profile"
+msgstr "This Setting is required to complete your profile"
+
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:91
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:169
+msgid "If no valid value is set, the following default will be used:"
+msgstr "If no valid value is set, the following default will be used:"
+
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:106
+#: app/smarty/templates_c/626d80aa919bff4876ab1e4001185aed289d4958_0.file.profile_extended.ajax.tpl.php:184
+msgid "Save setting"
+msgstr "Save setting"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:55
+msgid "Info"
+msgstr "Info"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:59
+msgid "Libraries and Tools"
+msgstr "Libraries and Tools"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:63
+msgid "Documentation"
+msgstr "Documentation"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:76
+msgid "Welcome to this boilerplate application"
+msgstr "Welcome to this boilerplate application"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:78
+msgid ""
+"This application should be a usable starting point for own webbase apps "
+"based on  php.<br />Several points led me to the decision to create such a "
+"thing on my own."
+msgstr ""
+"This application should be a usable starting point for own webbase apps "
+"based on  php.<br />Several points led me to the decision to create such a "
+"thing on my own."
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:81
+msgid ""
+"I don't like the idea of learning a full sized framework in order to output "
+"some function output."
+msgstr ""
+"I don't like the idea of learning a full sized framework in order to output "
+"some function output."
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:83
+msgid "In my opinion not every thing needs to be coded OOP."
+msgstr "In my opinion not every thing needs to be coded OOP."
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:86
+msgid "Some of the built in functions are"
+msgstr "Some of the built in functions are"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:89
+msgid "Routing over the index.php"
+msgstr "Routing over the index.php"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:91
+msgid "Easy page generation"
+msgstr "Easy page generation"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:93
+msgid "Ajax-Backend generation"
+msgstr "Ajax-Backend generation"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:95
+msgid "Dynamic (per page) including of CSS and JS"
+msgstr "Dynamic (per page) including of CSS and JS"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:97
+msgid "Secure user management"
+msgstr "Secure user management"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:99
+msgid "XSS and CSRF protection"
+msgstr "XSS and CSRF protection"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:101
+msgid "Bootstrap 4"
+msgstr "Bootstrap 4"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:103
+msgid "Dynamic navigation generation"
+msgstr "Dynamic navigation generation"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:105
+msgid "i18n multilanguage support (gettext)"
+msgstr "i18n multilanguage support (gettext)"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:107
+msgid "...and many more..."
+msgstr "...and many more..."
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:118
+msgid "This boilerplate is made out of some cool tools and libs"
+msgstr "This boilerplate is made out of some cool tools and libs"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:156
+msgid "A tiny documentation about the functions of this boilerplate"
+msgstr "A tiny documentation about the functions of this boilerplate"
+
+#: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:158
+msgid ""
+"For the documentation of the libraries/tools used, have a look on the linked "
+"homepage"
+msgstr ""
+"For the documentation of the libraries/tools used, have a look on the linked "
+"homepage"
+
+#: app/smarty/templates_c/71ae596b4d3c122a5c55f93569f8d55f96708ec3_0.file.noaccess.tpl.php:57
+#: app/smarty/templates_c/a96ce78975a81397592ab8fc6b219b41ae45bd13_0.file.notfound.tpl.php:56
+msgid "The following problem occoured"
+msgstr "The following problem occoured"
+
+#: app/smarty/templates_c/71ae596b4d3c122a5c55f93569f8d55f96708ec3_0.file.noaccess.tpl.php:77
+#: app/smarty/templates_c/a96ce78975a81397592ab8fc6b219b41ae45bd13_0.file.notfound.tpl.php:75
+msgid "Possible solutions"
+msgstr "Possible solutions"
+
+#: app/smarty/templates_c/7465c6a176c5a1fd7ed7b1f3e503ad735f40ff28_0.file.do_not_edit.tpl.php:25
+#: app/templates/do_not_edit.php:2
+msgid "full name"
+msgstr "full name"
+
+#: app/smarty/templates_c/7465c6a176c5a1fd7ed7b1f3e503ad735f40ff28_0.file.do_not_edit.tpl.php:27
+#: app/templates/do_not_edit.php:3
+msgid "Language Setting"
+msgstr "Language Setting"
+
+#: app/smarty/templates_c/7465c6a176c5a1fd7ed7b1f3e503ad735f40ff28_0.file.do_not_edit.tpl.php:29
+msgid "test etst"
+msgstr "test etst"
+
+#: app/smarty/templates_c/7465c6a176c5a1fd7ed7b1f3e503ad735f40ff28_0.file.do_not_edit.tpl.php:31
+#: app/templates/do_not_edit.php:4
+msgid "language"
+msgstr "language"
+
+#: app/smarty/templates_c/780520f8d54c7c8e45884f62dfe61e44cc1b959f_0.file.js_admin_user.tpl.php:140
+msgid "Really delete this user?"
+msgstr "Really delete this user?"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:63
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:65
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:125
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:127
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:77
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:79
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:74
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:76
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:63
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:65
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:117
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:119
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:72
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:76
+msgid "Email address"
+msgstr "Email address"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:67
+msgid "Send the instruction email"
+msgstr "Send the instruction email"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:75
+msgid "I received the password reset email."
+msgstr "I received the password reset email."
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:91
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:81
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:84
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:95
+msgid "New Password"
+msgstr "New Password"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:95
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:97
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:88
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:90
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:103
+msgid "Again the new Password"
+msgstr "Again the new Password"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:100
+msgid "Reset the password"
+msgstr "Reset the password"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:131
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:133
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:83
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:85
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:53
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:123
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:125
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:91
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:99
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:105
+msgid "Password"
+msgstr "Password"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:136
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:88
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:128
+msgid "Forget the password ?"
+msgstr "Forgot the password ?"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:140
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:92
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:132
+msgid "Sign in"
+msgstr "Sign in"
+
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:145
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:97
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:137
+msgid "keep me logged-in"
+msgstr "keep me logged-in"
+
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:46
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:65
+msgid "Your profile"
+msgstr "Your profile"
+
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:53
+msgid "Log out"
+msgstr "Log out"
+
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:104
+msgid "New here ?"
+msgstr "New here ?"
+
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:106
+msgid "Join Us"
+msgstr "Join Us"
+
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:125
+msgid "Administration"
+msgstr "Administration"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:42
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:84
+msgid "User name"
+msgstr "User name"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:47
+msgid "Name of the user, needs to be uniqe"
+msgstr "Name of the user, needs to be uniqe"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:57
+msgid "If set, the password will be changed"
+msgstr "If set, the password will be changed"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:63
+msgid "E-Mail Address"
+msgstr "E-Mail Address"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:73
+msgid "User Status"
+msgstr "User Status"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:100
+msgid "Resettable"
+msgstr "Resettable"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:113
+msgid "User Roles"
+msgstr "User Roles"
+
+#: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:139
+#: app/smarty/templates_c/a3f81a642917a4f3440d1b5684773514f8ac67f8_0.file.dev.tpl.php:55
+msgid "Delete this user"
+msgstr "Delete this user"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:58
+msgid "Profile fields"
+msgstr "Profile fields"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:63
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:37
+msgid "System"
+msgstr "System"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:67
+msgid "Navigation"
+msgstr "Navigation"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:71
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:40
+msgid "ACL"
+msgstr "ACL"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:75
+msgid "Tools"
+msgstr "Tools"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:109
+msgid "Navigation-Tree Management"
+msgstr "Navigation-Tree Management"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:111
+msgid "Create new menues on the fly. "
+msgstr "Create new menues on the fly. "
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:112
+msgid "Be aware:"
+msgstr "Be aware:"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:113
+msgid "Dropdown-Fields cannot be used as link."
+msgstr "Dropdown-Fields cannot be used as link."
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:118
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:157
+msgid "Reload from database"
+msgstr "Reload from database"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:121
+msgid "Save the current menue"
+msgstr "Save the current menue"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:140
+msgid "Page ACL"
+msgstr "Page ACL"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:144
+msgid ""
+"Sys-Pages have own access control functions and are not blocked for any user "
+"by the page ACL"
+msgstr ""
+"Sys-Pages have own access control functions and are not blocked for any user "
+"by the page ACL"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:146
+msgid "Pages with ACL deactivated are also not secured"
+msgstr "Pages with ACL deactivated are also not secured"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:148
+msgid "If no usergroup is assigned to a page ACL, all groups are allowed"
+msgstr "If no usergroup is assigned to a page ACL, all groups are allowed"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:160
+msgid "Scan for new pages"
+msgstr "Scan for new pages"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:181
+msgid "Create a new page"
+msgstr "Create a new page"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:185
+msgid ""
+"Creating a new page is no big deal.<br /> Enter the desired pagename, choose "
+"whether a JS template should be created and linked, and let's rock."
+msgstr ""
+"Creating a new page is no big deal.<br /> Enter the desired pagename, choose "
+"whether a JS template should be created and linked, and let's rock."
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:192
+msgid "Usergroup calculator"
+msgstr "Usergroup calculator"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:196
+msgid ""
+"The user groups combinations are saved as bitmask.<br />With this little "
+"calculator, you will be able to calculate the result of any valid group "
+"combination."
+msgstr ""
+"The user groups combinations are saved as bitmask.<br />With this little "
+"calculator, you will be able to calculate the result of any valid group "
+"combination."
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:203
+msgid "Compile all templates"
+msgstr "Compile all templates"
+
+#: app/smarty/templates_c/9ed9414847ca0b3b5c0874d5b3ca4a6fe396ba96_0.file.admin_sysman.tpl.php:207
+msgid ""
+"This will compile all templates to the templates cache directory. <br />This "
+"will allow you to parse this directory for new translation strings within "
+"any template."
+msgstr ""
+"This will compile all templates to the templates cache directory. <br />This "
+"will allow you to parse this directory for new translation strings within "
+"any template."
+
+#: app/smarty/templates_c/a51ebca3fe8dbec060231e366ce9d20e6a4cbaff_0.file.admin_sys_navact.tpl.php:27
+msgid "Here you can apply a structure to your menue"
+msgstr "Here you can apply a structure to your menue"
+
+#: app/smarty/templates_c/a51ebca3fe8dbec060231e366ce9d20e6a4cbaff_0.file.admin_sys_navact.tpl.php:30
+msgid ""
+"Each hirachy will result in an additional dropdown leven in the navigation "
+"bar."
+msgstr ""
+"Each hirachy will result in an additional dropdown leven in the navigation "
+"bar."
+
+#: app/smarty/templates_c/a51ebca3fe8dbec060231e366ce9d20e6a4cbaff_0.file.admin_sys_navact.tpl.php:34
+msgid "Add a new navigation item"
+msgstr "Add a new navigation item"
+
+#: app/smarty/templates_c/a51ebca3fe8dbec060231e366ce9d20e6a4cbaff_0.file.admin_sys_navact.tpl.php:37
+msgid "Delete a navigation item"
+msgstr "Delete a navigation item"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:29
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:30
+msgid "Title"
+msgstr "Title"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:32
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:34
+msgid "Description"
+msgstr "Description"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:35
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:38
+msgid "Type of navigation entry"
+msgstr "Type of navigation entry"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:40
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:43
+msgid "Parent-Item"
+msgstr "Parent-Item"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:45
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:48
+msgid "Access control"
+msgstr "Access control"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:46
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:49
+msgid "(visibility in menu)"
+msgstr "(visibility in menu)"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:54
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:58
+msgid "Target"
+msgstr "Target"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:55
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:59
+msgid "Full-url for extern targets, internal only pagename"
+msgstr "Full-url for extern targets, internal only pagename"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:58
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:61
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:63
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:66
+msgid "Active"
+msgstr "Active"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:63
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:68
+msgid "Inactive"
+msgstr "Inactive"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:66
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:71
+msgid "Sorting"
+msgstr "Sorting"
+
+#: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:69
+#: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:75
+msgid "Save changes"
+msgstr "Save changes"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:35
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:38
+msgid "Page"
+msgstr "Page"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:39
+msgid "Uses"
+msgstr "Uses"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:41
+msgid "Allowed"
+msgstr "Allowed"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:42
+msgid "User groups"
+msgstr "User groups"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:47
+msgid "Legend"
+msgstr "Legend"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:49
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:91
+msgid "Deactivated"
+msgstr "Deactivated"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:50
+msgid "Yes/Active"
+msgstr "Yes/Active"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:51
+msgid "No/Deactive"
+msgstr "No/Deactive"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:61
+msgid "Click to edit"
+msgstr "Click to edit"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:92
+msgid "Sys-Page"
+msgstr "Sys-Page"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:93
+msgid "self controlled"
+msgstr "self controlled"
+
+#: app/smarty/templates_c/c49b29a48d4d0712ebbc8692a1153484f37b1ee9_0.file.admin_sys_pagelist.tpl.php:94
+msgid "ACL deactivated"
+msgstr "ACL deactivated"
+
+#: app/smarty/templates_c/cf3bef1aa3e0f2cf0defdb51d2fdceef962ec58c_0.file.js_profile_extended.tpl.php:97
+msgid "Saved"
+msgstr "Saved"
+
+#: app/smarty/templates_c/cf3bef1aa3e0f2cf0defdb51d2fdceef962ec58c_0.file.js_profile_extended.tpl.php:101
+msgid "Save settings"
+msgstr "Save settings"
+
+#: app/smarty/templates_c/cf3bef1aa3e0f2cf0defdb51d2fdceef962ec58c_0.file.js_profile_extended.tpl.php:132
+msgid "Something went terrible wrong during the saving process"
+msgstr "Something went terrible wrong during the saving process"
+
+#: app/smarty/templates_c/d9db3772cd624ddaa0d23f93df8b3221804f4cd6_0.file.debugout.tpl.php:57
+msgid "testoutputput"
+msgstr "testoutputput"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:59
+msgid "Feel free to register your personal account"
+msgstr "Feel free to register your personal account"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:65
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:67
+msgid "Your name"
+msgstr "Your name"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:82
+msgid ""
+"You password needs to be at least 8 chars long, containing numbers and "
+"alphabetic character"
+msgstr ""
+"You password needs to be at least 8 chars long, containing numbers and "
+"alphabetic character"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:93
+msgid "Create your account"
+msgstr "Create your account"
+
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:67
+msgid "Resend the activation email"
+msgstr "Resend the activation email"
+
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:75
+msgid "I received the activation email."
+msgstr "I received the activation email."
+
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:92
+msgid "Activate the account"
+msgstr "Activate the account"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:73
+msgid "changing it will require a verification to be finalzed"
+msgstr "changing it will require a verification to be finalzed"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:80
+msgid "Your Name"
+msgstr "Your Name"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:81
+msgid "this is the name displayed on our page"
+msgstr "this is the name displayed on our page"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:88
+msgid "Current Password"
+msgstr "Current Password"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:89
+msgid "required for any change"
+msgstr "required for any change"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:96
+msgid "leave empty to not change it"
+msgstr "leave empty to not change it"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:110
+msgid "Update your profile"
+msgstr "Update your profile"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:116
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:118
+msgid "To the Extended Profile"
+msgstr "To the Extended Profile"
+
+#: app/templates/do_not_edit.php:5
+msgid "fullname"
+msgstr "fullname"
+
+#: app/templates/do_not_edit.php:6
+msgid "full_name"
+msgstr "full name"
+
+#: public/ajax/ajax_syswork.php:10 public/ajax/ajax_userwork.php:10
+#: public/ajax/ajaxbe_docman.php:25 public/ajax/ajaxbe_start.php:25
+msgid "Security check failed, token missing"
+msgstr "Security check failed, token missing"
+
+#: public/ajax/ajax_syswork.php:12 public/ajax/ajax_userwork.php:12
+#: public/ajax/ajax_userwork.php:68 public/ajax/ajax_userwork.php:108
+#: public/ajax/ajaxbe_docman.php:27 public/ajax/ajaxbe_profile_extended.php:27
+#: public/ajax/ajaxbe_start.php:27
+msgid "Security check failed"
+msgstr "Security check failed"
+
+#: public/ajax/ajax_syswork.php:14 public/ajax/ajax_userwork.php:14
+msgid "Security check failed, no guest access"
+msgstr "Security check failed, no guest access"
+
+#: public/ajax/ajax_syswork.php:19 public/ajax/ajax_userwork.php:19
+#: public/ajax/ajaxbe_docman.php:47
+msgid "Not the right role"
+msgstr "Not the right role"
+
+#: public/ajax/ajax_syswork.php:223
+msgid "Page creation failed."
+msgstr "Page creation failed."
+
+#: public/ajax/ajax_syswork.php:227
+msgid "Invalid page name entered"
+msgstr "Invalid page name entered"
+
+#: public/js/fontawesome-all.min.js:5
+msgid "Icon is missing for prefix "
+msgstr "Icon is missing for prefix "
+
+#~ msgid "This is my first translation message"
+#~ msgstr "This is my first translation message"

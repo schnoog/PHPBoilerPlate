@@ -1,0 +1,46 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-12-24 00:59+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: public/ajax/ajax_syswork.php:10 public/ajax/ajax_userwork.php:10
+#: public/ajax/ajaxbe_docman.php:25 public/ajax/ajaxbe_start.php:25
+msgid "Security check failed, token missing"
+msgstr ""
+
+#: public/ajax/ajax_syswork.php:12 public/ajax/ajax_userwork.php:12
+#: public/ajax/ajax_userwork.php:68 public/ajax/ajax_userwork.php:108
+#: public/ajax/ajaxbe_docman.php:27 public/ajax/ajaxbe_start.php:27
+msgid "Security check failed"
+msgstr ""
+
+#: public/ajax/ajax_syswork.php:14 public/ajax/ajax_userwork.php:14
+msgid "Security check failed, no guest access"
+msgstr ""
+
+#: public/ajax/ajax_syswork.php:19 public/ajax/ajax_userwork.php:19
+#: public/ajax/ajaxbe_docman.php:47
+msgid "Not the right role"
+msgstr ""
+
+#: public/ajax/ajax_syswork.php:219
+msgid "Page creation failed."
+msgstr ""
+
+#: public/ajax/ajax_syswork.php:223
+msgid "Invalid page name entered"
+msgstr ""

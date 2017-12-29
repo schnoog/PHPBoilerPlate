@@ -1,0 +1,33 @@
+<script type="text/javascript">
+{if isset($pagedata.replaceid)}
+    var ContentReplaceID = "{$pagedata.replaceid}";
+{/if}
+{if isset($pagedata.ajaxbackend)}
+    var ajaxBackEnd = "{$pagedata.ajaxurl}{$pagedata.ajaxbackend}"; //don't hardcode the backend
+{/if}
+{if isset($pagedata.sectoken)}
+    var sectoken = "{$pagedata.sectoken}"; //should be supplied with each request in the token field
+{/if}
+//////////////////////////////////////////////////
+   
+$(document).ready(function() {
+ /////
+
+
+ ////
+ 
+ 
+ ////
+} );
+
+
+
+////////////////////////////////////////////////////
+
+
+
+
+
+
+   
+</script> 

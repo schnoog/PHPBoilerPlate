@@ -1,0 +1,12 @@
+{
+    "require": {
+        "smarty/smarty": "~3.1",
+        "sergeytsalkov/meekrodb": "^2.3",
+        "delight-im/auth": "^7.2",
+        "phpmailer/phpmailer": "^6.0",
+        "voku/anti-xss": "^3.1",
+ 	"sepia/po-parser": "dev-master",
+        "werx/validation": "^1.3"
+
+    }
+}

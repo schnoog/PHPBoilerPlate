@@ -1,0 +1,165 @@
+<?php
+
+$Settings = array();
+$mailsetting = array();
+$pagedata = array();
+$navdata = array();
+
+define("DEBUGOUT",true);
+
+$Settings['page'] = array(
+            'baseurl' => 'https://localhost/',
+            'ajaxurl' => 'https://localhost/ajax/',
+      //'baseurl' => '',
+            'title'       => "mein titel",
+            'description' => "descritptopopop",
+            'mailservice' => "OwnBoilderPlate",
+            'projectname' => "Own boilerplate",
+            'js_to_include'  => "",
+            'sectoken'      => ''
+            
+
+        );
+
+$Settings['pages'] = array(
+        'landingpage' => 'start',
+        'messagepage' => 'msgout',
+        'fatalpage'   => 'errout',
+        'noaccess'   => 'noaccess',
+        'notfound'    => 'notfound' //'notfound'
+        );
+        
+
+$Settings['mail'] =array(
+        'port'     => 587,
+        'host'     => 'localhost',
+        'user'     => 'mailuser',
+        'password' => 'mailpassword',
+        'name'     => 'mailsendername'
+        );
+        
+
+$Settings['db']= array(
+        'host'     => 'localhost',
+        'dbdriver' => 'mysql',
+        'port'     => 3306,
+        'user'     => 'ownboilerplate',
+        'dbname'   => 'ownboilerplate',
+        'password' => 'here-is-the-password'
+        );
+
+$Settings['langs']['available'] = array(
+            'de_DE' => "Deutsch",
+            'en_GB' => "English",
+            );
+$Settings['langs']['default'] = 'en_GB';
+$Settings['langs']['active'] = 'en_GB'; //will be overwritten by user 
+$Settings['langs']['defaultdomain'] = 'core';
+
+
+
+$Settings['security'] = array (
+                                'pwminlength' => 8,
+                                'token' => array ('salt' => 'come on, create you own salt to make your system more secure'),
+                                'pwblub' => 1,
+                                'md5hashcost' => 5,
+                            );       
+
+
+$Settings['admin']['adminpages'] = array (
+                            'admin_userman' => 'User-Management',
+                            'admin_sysman' =>'System-Management'
+                            
+                            );
+$Settings['admin']['rootrole'] = \Delight\Auth\Role::ADMIN;
+
+$Settings['admin']['adminroles'] = array (  // Admin menue is visible
+                                    \Delight\Auth\Role::ADMIN,
+//                                    \Delight\Auth\Role::AUTHOR,
+//                                    \Delight\Auth\Role::COLLABORATOR,
+//                                    \Delight\Auth\Role::CONSULTANT,
+//                                    \Delight\Auth\Role::CONSUMER,
+//                                    \Delight\Auth\Role::CONTRIBUTOR,
+//                                    \Delight\Auth\Role::COORDINATOR,
+//                                    \Delight\Auth\Role::CREATOR,
+                                    \Delight\Auth\Role::DEVELOPER,
+//                                    \Delight\Auth\Role::DIRECTOR,
+//                                    \Delight\Auth\Role::EDITOR,
+//                                    \Delight\Auth\Role::EMPLOYEE,
+                                    \Delight\Auth\Role::MAINTAINER,
+//                                    \Delight\Auth\Role::MANAGER,
+//                                    \Delight\Auth\Role::MODERATOR,
+//                                    \Delight\Auth\Role::PUBLISHER,
+//                                    \Delight\Auth\Role::REVIEWER,
+//                                    \Delight\Auth\Role::SUBSCRIBER,
+                                    \Delight\Auth\Role::SUPER_ADMIN,
+//                                    \Delight\Auth\Role::SUPER_EDITOR,
+//                                    \Delight\Auth\Role::SUPER_MODERATOR,
+//                                    \Delight\Auth\Role::TRANSLATOR
+                            );
+
+$Settings['roles']['available'] = array (  // Admin menue is visible
+                                    \Delight\Auth\Role::ADMIN,
+                                    \Delight\Auth\Role::AUTHOR,
+//                                    \Delight\Auth\Role::COLLABORATOR,
+//                                    \Delight\Auth\Role::CONSULTANT,
+                                    \Delight\Auth\Role::CONSUMER,
+//                                    \Delight\Auth\Role::CONTRIBUTOR,
+//                                    \Delight\Auth\Role::COORDINATOR,
+                                    \Delight\Auth\Role::CREATOR,
+                                    \Delight\Auth\Role::DEVELOPER,
+//                                    \Delight\Auth\Role::DIRECTOR,
+//                                    \Delight\Auth\Role::EDITOR,
+//                                    \Delight\Auth\Role::EMPLOYEE,
+                                    \Delight\Auth\Role::MAINTAINER,
+//                                    \Delight\Auth\Role::MANAGER,
+//                                    \Delight\Auth\Role::MODERATOR,
+//                                    \Delight\Auth\Role::PUBLISHER,
+                                    \Delight\Auth\Role::REVIEWER,
+//                                    \Delight\Auth\Role::SUBSCRIBER,
+                                    \Delight\Auth\Role::SUPER_ADMIN,
+                                    \Delight\Auth\Role::SUPER_EDITOR,
+                                    \Delight\Auth\Role::SUPER_MODERATOR,
+//                                    \Delight\Auth\Role::TRANSLATOR
+                            );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//$pagedata = array(
+//                'title'       => $Settings['page']['title'],
+//                'description' => $Settings['page']['description'],
+//                'baseurl' => $Settings['page']['baseurl'],
+//                );
+$pagedata = $Settings['page'];                
+
+
+$mailsetting['OwnBoilderPlate']=array(
+        'port'     => $Settings['mail']['port'],
+        'host'     => $Settings['mail']['host'],
+        'user'     => $Settings['mail']['user'],
+        'password' => $Settings['mail']['password'],
+        'name'     => $Settings['mail']['name']
+        );
+
+
+
+
+$navdata['login']['displayname'] = "Testuser";
+$navdata['login']['social'] = false;
+$navdata['login']['registerlink'] = "register";
+$navdata['login']['pwreset'] = "pwreset";
+$navdata['login']['profile'] = "profile";
+$navdata['login']['logintarget'] = "login";
+$navdata['adminpages'] = $Settings['admin']['adminpages'];

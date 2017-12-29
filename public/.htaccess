@@ -1,0 +1,9 @@
+Options +FollowSymLinks
+RewriteEngine On
+# The first 2 conditions may or may not be relevant for your needs
+# If the request is not for a valid file
+RewriteCond %{REQUEST_FILENAME} !-d
+# If the request is not for a valid directory
+RewriteCond %{REQUEST_FILENAME} !-f
+# This rule converts your flat link to a query
+RewriteRule ^(.*)$ index.php?params=$1 [L,NC,NE,QSA]
