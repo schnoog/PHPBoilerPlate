@@ -38,12 +38,17 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 - A webserver capable to run php (with intl extension, PHP 5.6.0+, PDO extension , OpenSSL extension)
 - A MySQL database server (MySQL 5.5.3+ or MariaDB 5.5.23+)
 - To use internationalisation, you may need to run locale-gen on your linux server
-- composer (even if this project is not deployed over composer [yet], the required libraries are loaded and auto included with it)
+- composer
 
 ## Installation
 The installation directory should not be web accessible. Only the public folder needs to be web readable.
 
 ### Get the files
+#### Composer based installation
+To install the boilerplate, run this within the target directory
+```
+composer create-project schnoog/boilerplate . *
+```
 
 #### GIT based installation
 - Clone the git repository to you server
