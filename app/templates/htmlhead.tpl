@@ -16,13 +16,19 @@
     <link href="{$pagedata.baseurl}css/bootstrap-4-navbar.css" rel="stylesheet" />
  <!--    <link href="css/jumbotron.css" rel="stylesheet" /> -->
     <link href="{$pagedata.baseurl}css/main.css" rel="stylesheet" />
+ 
+ <link href="{$pagedata.baseurl}css/fontawesome-all.css" rel="stylesheet">
+  
+ 
+ 
     {if isset($pagedata.headincludes.css)}
     {foreach $pagedata.headincludes.css as $headinc}
     <link href="{$pagedata.baseurl}css/{$headinc}" rel="stylesheet" />
     {/foreach}
     {/if}
     
-    
+    <!-- FA likes to be included in head -->
+<!--    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script> -->  
     
     
     <!-- Custom CSS -->

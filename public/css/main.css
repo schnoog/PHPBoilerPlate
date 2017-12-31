@@ -20,6 +20,7 @@ body{
     clear:both;
     padding:14px;
 }
+/*
 #login-dp .social-buttons{
     margin:12px 0    
 }
@@ -44,6 +45,16 @@ body{
 .btn-tw:hover{
     color: #fff;
     background-color:#59b5fa;
+}
+*/
+.reveal .fa {
+  font-family: 'FontAwesome';
+  font-style: normal;
+}
+
+.reveal .fas {
+  font-family: 'FontAwesome';
+  font-style: normal;
 }
 @media(max-width:768px){
     #login-dp{
@@ -248,3 +259,18 @@ div[data-role="editor-toolbar"] {
     width:100%;
 }
 
+.tdhalf {
+    width: 50%;
+}
+
+.tdthird {
+    width: 50%;
+}
+
+.tdfourth {
+	width: 50%;
+}
+
+.tablefixed {
+    table-layout: fixed;
+}

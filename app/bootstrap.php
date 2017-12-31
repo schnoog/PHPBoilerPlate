@@ -83,7 +83,7 @@ foreach (glob(FUNCTION_DIR . '/*.php') as $filename)
 // Generate Navigation
 
 
-
+$navdata['login']['socialprovider'] = getAllowedSocialProviders();
 $navdata['navtree'] = GenerateNavigation();
 $data="";
 // Set CSRFToken

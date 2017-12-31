@@ -21,6 +21,38 @@
                 </div>
 {if isset($showregform)}
                                                 <h3>{'Feel free to register your personal account'|gettext}</h3>
+                                                
+{if isset($navdata.login.social)}{if $navdata.login.social === true}
+<h4>{'Register over the following networks'|gettext}</h4>
+    <div class="social-buttons">
+
+{$x=0}
+<table><tr>
+{foreach $navdata.login.socialprovider as $provider}
+    {$x = $x +1}
+    {$bt = 'primary'}
+        {if $x is even} 
+            {$bt = 'info'}
+        {/if}        
+    <td><a href="{$navdata.login.socialpage}?provider={$provider}&register=1" target="_blank" class="btn btn-lg btn-block btn-{$bt}"><i class="fas fa-sign-in-alt"></i> {$provider}</a></td>
+        {if (($x % 6) == 0)}</tr><tr>{/if}
+{/foreach}
+</tr></table>
+    </div>
+    <hr />
+<h4>{'or'|gettext}</h4>
+<h4>{'Register locally'|gettext}</h4>
+
+{/if}{/if}                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
+                                                
             								 <form class="form" role="form" method="post" action="{$navdata.login.registerlink}" accept-charset="UTF-8" id="login-nav">
             										<div class="form-group">
                                                         <div class="form-group"> 

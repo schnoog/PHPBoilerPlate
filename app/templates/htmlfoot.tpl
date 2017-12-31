@@ -7,7 +7,7 @@
     <script src="{$pagedata.baseurl}js/bootstrap.min.js"></script>
     <script src="{$pagedata.baseurl}js/bootbox.min.js"></script>
     
-    <script src="{$pagedata.baseurl}js/fontawesome-all.min.js"></script>
+
     <script src="{$pagedata.baseurl}js/bootstrap-4-navbar.js"></script>
     <script type="text/javascript" id="cookieinfo" 	src="{$pagedata.baseurl}js/cookieinfo.min.js"></script>
 
