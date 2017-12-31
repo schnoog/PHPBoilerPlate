@@ -34,7 +34,7 @@
         {if $x is even} 
             {$bt = 'info'}
         {/if}        
-    <td><a href="{$navdata.login.socialpage}?provider={$provider}&register=1" target="_blank" class="btn btn-lg btn-block btn-{$bt}"><i class="fas fa-sign-in-alt"></i> {$provider}</a></td>
+    <td><a href="{$navdata.login.socialpage}?provider={$provider}&register=1" class="btn btn-lg btn-block btn-{$bt}"><i class="fas fa-sign-in-alt"></i> {$provider}</a></td>
         {if (($x % 6) == 0)}</tr><tr>{/if}
 {/foreach}
 </tr></table>

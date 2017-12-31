@@ -18,7 +18,6 @@ if ($tmp){
 }else{
         $data .= "<h1>Invalid</h1>";
 }
-*/
 
 //
 //$flt[] = 'contains[abc]';
@@ -38,7 +37,10 @@ $filt = implode('|',$flt);
 $data = "Ruleset: ".$filt."<br/>Resulting html control tags: <br />"; 
 $data .= getFormvalidatorString($filt);
 $data .= "<br />";
+*/
 
+$data = "<pre>" . print_r($_SESSION,true) . "</pre>";
+//$data = "<pre>" . print_r($auth,true) . "</pre>";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 

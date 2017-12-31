@@ -19,20 +19,23 @@
                     <h3>{$msg}</h3>
                     </div>
                 </div>
-
-
+{$ro='readonly="readonly"'}
+{if $user.local}
+{$ro = ''}
+{/if}
 
 
                 <div class="row">
                         <div class="col-md-12">
                     {if isset($showform)}
             								<h3>{'Your profile'|gettext}</h3> 
-                                            
+{if !$user.local}</h2>{'Settings like your username and your email address are controlled by'|gettext} {$user.sp}</h2>
+{else}                                            
             								 <form class="form" role="form" method="post" action="{$navdata.login.profile}" accept-charset="UTF-8" id="profildet-nav">
             										<div class="form-group">
                                                          <input type="hidden" name="action" value="profilechange" />
             											 <label  for="exampleInputEmail2">{'Email address'|gettext}<br /><small><b>{'changing it will require a verification to be finalzed'|gettext}</b></small></label>
-            											 <input value="{$user.email}" name="email" type="email" class="form-control" id="exampleInputEmail2" placeholder="{'Email address'|gettext}" required>
+            											 <input value="{$user.email}" name="email" type="email" class="form-control" {$ro} id="exampleInputEmail2" placeholder="{'Email address'|gettext}" required>
             										</div>
             										<div class="form-group">
                                                          <label  for="exampleInputEmail2">{'Your Name'|gettext}<br /><small><b>{'this is the name displayed on our page'|gettext}</b></small></label>
@@ -56,6 +59,7 @@
             										</div>
 
             								 </form>
+{/if}                                             
                      {/if}
                      <a class="btn btn-primary form-control btn-success"  href="profile_extended" title="{'To the Extended Profile'|gettext}">
                         {'To the Extended Profile'|gettext}

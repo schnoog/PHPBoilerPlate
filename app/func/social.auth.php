@@ -13,7 +13,8 @@ function socialLogin($identifier,$provider,$usermail){
                 $auth->login($usermail, $userpass, $rememberDuration);
                 $loginok = true;
                 $_SESSION['oauth'] = $provider;
-                $_SESSION['oauthid'] = $identifier; 
+                $_SESSION['oauthid'] = $identifier;
+                setLoginProvider($provider,$usermail); 
                 // user is logged in
             }
             catch (\Delight\Auth\InvalidEmailException $e) {
@@ -47,6 +48,7 @@ function socialRegister($identifier,$provider,$usermail,$username=''){
     $regok = true;
                         try {
                             $userId = $auth->register($usermail, $userpass, $username);
+                                $msg = _('Your account was created, please log in now');
                         
                             // we have signed up a new user with the ID `$userId`
                         }
@@ -95,4 +97,10 @@ function getAllowedSocialProviders(){
         if($data['enabled']) $ret[]= $provider;
     }
     return $ret;
+}
+//////////////////////////////////////
+//
+//
+function setLoginProvider($provider,$usermail){
+    DB::query('UPDATE users SET loginprovider = %s WHERE email = %s', $provider,$usermail);
 }

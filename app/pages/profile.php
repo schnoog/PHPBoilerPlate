@@ -4,6 +4,12 @@
 $data = print_r($_REQUEST,true);
 $showform = true;
 
+
+if (!isset($_SESSION['loginprovider'])){
+    $_SESSION['loginprovider'] = DB::queryFirstField("Select loginprovider from users WHERE id = %i",$auth->getUserId());
+}
+
+
 $msg = "";
 if (!isset($_POST['action'])){
     $_POST['action'] = "-";
@@ -13,6 +19,8 @@ if (!$auth->isLoggedIn()) forwartTo($Settings['pages']['noaccess']);
 
 $user['email'] = $auth->getEmail();
 $user['name'] = $auth->getUsername();
+$user['local'] = ($_SESSION['loginprovider'] == "local" ? true : false );
+$user['sp'] = $_SESSION['loginprovider'];
 
 if ($_POST['action'] == 'profilechange'){
         try {
