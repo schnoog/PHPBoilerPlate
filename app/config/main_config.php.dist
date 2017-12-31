@@ -13,7 +13,7 @@ $baseURL = ( (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on")) ? "https:
  */
 
 /**
- * Main Page Settings  --> Set 
+ * Main Page Settings 
  */
 $Settings['page'] = array(
             'baseurl' => $baseURL,

@@ -15,7 +15,10 @@ if (!isset($_POST['action'])){
     $_POST['action'] = "-";
     $showform = true;
 }
-if (!$auth->isLoggedIn()) forwartTo($Settings['pages']['noaccess']);
+if (!$auth->isLoggedIn()) {
+    forwartTo($Settings['pages']['noaccess']);
+ 
+}
 
 $user['email'] = $auth->getEmail();
 $user['name'] = $auth->getUsername();

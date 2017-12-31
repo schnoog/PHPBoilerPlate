@@ -1,7 +1,0 @@
-{
-    "require": {
-        "monolog/monolog": "1.0.*",
-	"smarty/smarty": "~3.1",
-	"phpauth/phpauth": "1.1.*"
-    }
-}
