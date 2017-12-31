@@ -59,6 +59,12 @@ $usedlibs= array(
 'anti-xss' => array('anti-xss','https://github.com/voku/anti-xss','MIT license'),
 'werx/validation' => array('werx/validation','https://github.com/werx/validation','MIT License'),
 'jQuery Form Validator' => array('formvalidator.net','http://www.formvalidator.net','MIT License'),
+'Hybridauth 3' => array('Hybridauth 3.0','https://hybridauth.github.io','MIT License'),
+'fontawesome' => array('Font Awesome','http://fontawesome.io/','MIT License & SIL OFL 1.1'),
+//'' => array('','','MIT License'),
+//'' => array('','','MIT License'),
+//'' => array('','','MIT License'),
+//'' => array('','','MIT License'),
 //'auth' => array ("auth",print_r($auth->getUserId(),true),"auth"),
 );
 

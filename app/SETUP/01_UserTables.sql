@@ -34,6 +34,7 @@ CREATE TABLE `users` (
   `roles_mask` int(10) unsigned NOT NULL DEFAULT '0',
   `registered` int(10) unsigned NOT NULL,
   `last_login` int(10) unsigned DEFAULT NULL,
+  `loginprovider` varchar(50) COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'local',
   PRIMARY KEY (`id`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `uname` (`username`)
@@ -46,7 +47,7 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (1,'test@test.de','$2y$10$qxltUdrBulInGmr5f1X0fe8OJmPbkGfhlc74XQ457/WiZWpDVjHVO','testaccount',0,1,1,1905041,1513196866,1513201085);
+INSERT INTO `users` VALUES (1,'test@test.de','$2y$10$qxltUdrBulInGmr5f1X0fe8OJmPbkGfhlc74XQ457/WiZWpDVjHVO','testaccount',0,1,1,1905041,1513196866,1513201085,'local');
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
