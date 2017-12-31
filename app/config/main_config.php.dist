@@ -1,27 +1,86 @@
 <?php
 
+define("DEBUGOUT",true);
 $Settings = array();
 $mailsetting = array();
 $pagedata = array();
 $navdata = array();
+$baseURL = ( (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on")) ? "https://" : "http://" )  . $_SERVER['HTTP_HOST'] ."/";
 
-define("DEBUGOUT",true);
+/**
+ * GENERAL SETTINGS. 
+ * 
+ */
 
-///PAGE
+/**
+ * Main Page Settings  --> Set 
+ */
 $Settings['page'] = array(
-            'baseurl' => 'https://localhost/',
-            'ajaxurl' => 'https://localhost/ajax/',
-      //'baseurl' => '',
+            'baseurl' => $baseURL,
+            'ajaxurl' => $baseURL . 'ajax/',
             'title'       => "mein titel",
-            'description' => "descritptopopop",
+            'description' => "A simple Boilerplate App in php",
             'mailservice' => "OwnBoilderPlate",
             'projectname' => "Own boilerplate",
-            'js_to_include'  => "",  // leave it empty
-            'sectoken'      => ''   //leave it emptpy
+            'js_to_include'  => "",
+            'sectoken'      => ''
             
 
         );
+/**
+ * Database Settings 
+ */
+$Settings['db']= array(
+        'host'     => 'localhost',                  
+        'dbdriver' => 'mysql',
+        'port'     => 3306,
+        'user'     => 'ownboilerplate',
+        'dbname'   => 'ownboilerplate',
+        'password' => 'Database Password'
+        );
+/**
+ * Some Security Settings
+ */
+$Settings['security'] = array (
+                                'pwminlength' => 8,
+                                'token' => array ('salt' => 'Please entere here a random string'),
+                                'pwblub' => 1,
+                                'md5hashcost' => 5,
+                            );       
 
+/**
+ * Mail Server Settings for phpmailer
+ */        
+$Settings['mail'] =array(
+        'port'     => 587,
+        'host'     => 'mail.example.com',
+        'user'     => 'mailuser',
+        'password' => 'password',
+        'name'     => 'sendasname'
+        );
+        
+/**
+ * OAuth Settings
+ */
+$Settings['oauth'] = array(
+    "use" => false,
+    "userpwsalt" => 'here a nother randum string is required',
+ "config" => [
+    //Location where to redirect users once they authenticate with a provider
+    'callback' => $baseURL . 'oauth/callback.php',
+
+    //Providers specifics
+    'providers' => [
+        'Twitter' => ['enabled' => true, 'keys' => [ 'key'    => '', 'secret' => '']],
+        'Google'   => ['enabled' => true, 'keys' => [ 'id'  => '', 'secret' => '']], //To populate in a similar way to Twitter
+        'Facebook' => ['enabled' => true, 'keys' => [ 'id'  => '', 'secret' => '']],   //And so on
+    ]
+]
+
+);
+/**
+ * Pages Routing Settings
+ */
 $Settings['pages'] = array(
         'landingpage' => 'start',
         'messagepage' => 'msgout',
@@ -29,26 +88,9 @@ $Settings['pages'] = array(
         'noaccess'   => 'noaccess',
         'notfound'    => 'notfound' //'notfound'
         );
-        
-///MAIL
-$Settings['mail'] =array(
-        'port'     => 587,
-        'host'     => 'localhost',
-        'user'     => 'mailuser',
-        'password' => 'mailpassword',
-        'name'     => 'mailsendername'
-        );
-        
-///DATABASE
-$Settings['db']= array(
-        'host'     => 'localhost',
-        'dbdriver' => 'mysql',
-        'port'     => 3306,
-        'user'     => 'ownboilerplate',
-        'dbname'   => 'ownboilerplate',
-        'password' => 'here-is-the-password'
-        );
-
+/**
+ * Multilanguage i18n Settings
+ */
 $Settings['langs']['available'] = array(
             'de_DE' => "Deutsch",
             'en_GB' => "English",
@@ -56,24 +98,22 @@ $Settings['langs']['available'] = array(
 $Settings['langs']['default'] = 'en_GB';
 $Settings['langs']['active'] = 'en_GB'; //will be overwritten by user 
 $Settings['langs']['defaultdomain'] = 'core';
-
-
-///SECURITY
-$Settings['security'] = array (
-                                'pwminlength' => 8,
-                                'token' => array ('salt' => 'come on, create you own salt to make your system more secure'),
-                                'pwblub' => 1,
-                                'md5hashcost' => 5,
-                            );       
-
-
+/**
+ * List of hardcoded Admin Pages
+ */
 $Settings['admin']['adminpages'] = array (
                             'admin_userman' => 'User-Management',
                             'admin_sysman' =>'System-Management'
                             
                             );
+                            
+/**
+ * Root admin role (the one which can not be deleted by normal admins)
+ */                            
 $Settings['admin']['rootrole'] = \Delight\Auth\Role::ADMIN;
-
+/**
+ * All the admin roles (the groups which have access to the adminpages defined above)
+ */
 $Settings['admin']['adminroles'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::ADMIN,
 //                                    \Delight\Auth\Role::AUTHOR,
@@ -99,6 +139,9 @@ $Settings['admin']['adminroles'] = array (  // Admin menue is visible
 //                                    \Delight\Auth\Role::TRANSLATOR
                             );
 
+/**
+ * User roles. delight-im/auth has a lot of groups defined
+ */
 $Settings['roles']['available'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::ADMIN,
                                     \Delight\Auth\Role::AUTHOR,
@@ -123,6 +166,9 @@ $Settings['roles']['available'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::SUPER_MODERATOR,
 //                                    \Delight\Auth\Role::TRANSLATOR
                             );
+/**
+ * 
+ */
 
 
 
@@ -130,35 +176,19 @@ $Settings['roles']['available'] = array (  // Admin menue is visible
 
 
 
-
-
-
-
-
-
-
-
-//$pagedata = array(
-//                'title'       => $Settings['page']['title'],
-//                'description' => $Settings['page']['description'],
-//                'baseurl' => $Settings['page']['baseurl'],
-//                );
+/**
+ * 
+ * 
+ * END OF SETTINGS
+ * 
+ * 
+ * 
+ */
 $pagedata = $Settings['page'];                
-
-
-$mailsetting['OwnBoilderPlate']=array(
-        'port'     => $Settings['mail']['port'],
-        'host'     => $Settings['mail']['host'],
-        'user'     => $Settings['mail']['user'],
-        'password' => $Settings['mail']['password'],
-        'name'     => $Settings['mail']['name']
-        );
-
-
-
-
+$mailsetting['OwnBoilderPlate']= $Settings['mail'];
 $navdata['login']['displayname'] = "Testuser";
-$navdata['login']['social'] = false;
+$navdata['login']['social'] = $Settings['oauth']['use'];
+$navdata['login']['socialpage'] = $Settings['oauth']['config']['callback'];
 $navdata['login']['registerlink'] = "register";
 $navdata['login']['pwreset'] = "pwreset";
 $navdata['login']['profile'] = "profile";
