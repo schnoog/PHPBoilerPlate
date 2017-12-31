@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-29 22:15+0100\n"
-"PO-Revision-Date: 2017-12-29 22:15+0100\n"
+"POT-Creation-Date: 2017-12-31 23:23+0100\n"
+"PO-Revision-Date: 2017-12-31 23:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_GB\n"
@@ -1144,6 +1144,44 @@ msgstr "Beg to the admin to receive more power."
 msgid "Just visit an other page that exists."
 msgstr "Just visit an other page that exists."
 
+#: app/func/social.auth.php:21 app/pages/login.php:30 app/pages/pwreset.php:87
+msgid "Email address unknown"
+msgstr "Email address unknown"
+
+#: app/func/social.auth.php:26 app/pages/login.php:35
+msgid "Password wrong"
+msgstr "Password wrong"
+
+#: app/func/social.auth.php:31 app/pages/login.php:40
+msgid "Your account is not activated."
+msgstr "Your account is not activated."
+
+#: app/func/social.auth.php:36 app/func/social.auth.php:71
+#: app/pages/login.php:45 app/pages/login.php:82 app/pages/profile.php:73
+#: app/pages/profile.php:94 app/pages/profile.php:117 app/pages/pwreset.php:51
+#: app/pages/pwreset.php:102 app/pages/register.php:57
+msgid "To many tries. Please come back later"
+msgstr "To many tries. Please come back later"
+
+#: app/func/social.auth.php:51
+#| msgid "Your account was created. An activation email was sent to you"
+msgid "Your account was created, please log in now"
+msgstr "Your account was created, please log in now"
+
+#: app/func/social.auth.php:56 app/pages/profile.php:58
+#: app/pages/register.php:42
+msgid "Invalid email address entered"
+msgstr "Invalid email address entered"
+
+#: app/func/social.auth.php:61 app/pages/register.php:47
+msgid "Invalid password entered"
+msgstr "Invalid password entered"
+
+#: app/func/social.auth.php:66 app/pages/profile.php:62
+#: app/pages/register.php:52
+msgid "This email account is already registered"
+msgstr "This email account is already registered"
+
 #: app/func/vali.php:10 app/func/vali.php:42
 msgid "{name} is a required field."
 msgstr "{name} is a required field."
@@ -1232,24 +1270,6 @@ msgstr "{name} must contain %s."
 msgid "{name} is not in the correct format."
 msgstr "{name} is not in the correct format."
 
-#: app/pages/login.php:30 app/pages/pwreset.php:87
-msgid "Email address unknown"
-msgstr "Email address unknown"
-
-#: app/pages/login.php:35
-msgid "Password wrong"
-msgstr "Password wrong"
-
-#: app/pages/login.php:40
-msgid "Your account is not activated."
-msgstr "Your account is not activated."
-
-#: app/pages/login.php:45 app/pages/login.php:82 app/pages/profile.php:62
-#: app/pages/profile.php:83 app/pages/profile.php:106 app/pages/pwreset.php:51
-#: app/pages/pwreset.php:102 app/pages/register.php:57
-msgid "To many tries. Please come back later"
-msgstr "To many tries. Please come back later"
-
 #: app/pages/login.php:63
 msgid "Your account is now activated."
 msgstr "Your account is now activated."
@@ -1274,15 +1294,23 @@ msgstr "The activation email was sent"
 msgid "No activation request active"
 msgstr "No activation request active"
 
-#: app/pages/profile.php:24
+#: app/pages/noaccess.php:3
+msgid "You're not logged. Page access denied"
+msgstr "You're not logged. Page access denied"
+
+#: app/pages/noaccess.php:4
+msgid "Login, or if not yet done: Register."
+msgstr "Login, or if not yet done: Register."
+
+#: app/pages/profile.php:35
 msgid "Your username was successfully changed"
 msgstr "Your username was successfully changed"
 
-#: app/pages/profile.php:26
+#: app/pages/profile.php:37
 msgid "An error occured. Name change failed"
 msgstr "An error occured. Name change failed"
 
-#: app/pages/profile.php:33
+#: app/pages/profile.php:44
 msgid ""
 "Sorry, your entered new user name is invalid. Only alphanumeric characters "
 "and underscore are allowed"
@@ -1290,35 +1318,27 @@ msgstr ""
 "Sorry, your entered new user name is invalid. Only alphanumeric characters "
 "and underscore are allowed"
 
-#: app/pages/profile.php:43
+#: app/pages/profile.php:54
 msgid "Your email address was updated. An activation email was sent to you"
 msgstr "Your email address was updated. An activation email was sent to you"
 
-#: app/pages/profile.php:47 app/pages/register.php:42
-msgid "Invalid email address entered"
-msgstr "Invalid email address entered"
-
-#: app/pages/profile.php:51 app/pages/register.php:52
-msgid "This email account is already registered"
-msgstr "This email account is already registered"
-
-#: app/pages/profile.php:55
+#: app/pages/profile.php:66
 msgid "Your account is not activated. No profile change possible"
 msgstr "Your account is not activated. No profile change possible"
 
-#: app/pages/profile.php:72
+#: app/pages/profile.php:83
 msgid "Your password was updated"
 msgstr "Your password was updated"
 
-#: app/pages/profile.php:79 app/pages/profile.php:99
+#: app/pages/profile.php:90 app/pages/profile.php:110
 msgid "The password you entered seems to be wrong"
 msgstr "The password you entered seems to be wrong"
 
-#: app/pages/profile.php:87
+#: app/pages/profile.php:98
 msgid "You have entered an unsafe password. Not updated"
 msgstr "You have entered an unsafe password. Not updated"
 
-#: app/pages/profile.php:90
+#: app/pages/profile.php:101
 msgid "The passwords do not match"
 msgstr "The passwords do not match"
 
@@ -1365,10 +1385,6 @@ msgstr "Your password is not secure enough"
 #: app/pages/register.php:34
 msgid "Your account was created. An activation email was sent to you"
 msgstr "Your account was created. An activation email was sent to you"
-
-#: app/pages/register.php:47
-msgid "Invalid password entered"
-msgstr "Invalid password entered"
 
 #: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:26
 msgid "Profile item"
@@ -2032,16 +2048,16 @@ msgstr "Really delete this user?"
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:65
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:125
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:127
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:77
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:79
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:74
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:76
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:104
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:106
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:127
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:129
 #: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:63
 #: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:65
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:117
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:119
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:72
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:76
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:146
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:148
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:77
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:82
 msgid "Email address"
 msgstr "Email address"
 
@@ -2054,17 +2070,27 @@ msgid "I received the password reset email."
 msgstr "I received the password reset email."
 
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:91
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:81
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:84
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:95
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:134
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:137
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:101
 msgid "New Password"
 msgstr "New Password"
 
+#: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:92
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:135
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:103
+msgid ""
+"You password needs to be at least 8 chars long, containing numbers and "
+"alphabetic character"
+msgstr ""
+"You password needs to be at least 8 chars long, containing numbers and "
+"alphabetic character"
+
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:95
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:97
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:88
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:90
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:103
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:141
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:143
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:109
 msgid "Again the new Password"
 msgstr "Again the new Password"
 
@@ -2074,37 +2100,37 @@ msgstr "Reset the password"
 
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:131
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:133
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:83
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:85
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:110
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:112
 #: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:53
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:123
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:125
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:91
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:99
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:152
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:154
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:97
 #: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:105
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:111
 msgid "Password"
 msgstr "Password"
 
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:136
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:88
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:128
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:115
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:157
 msgid "Forget the password ?"
 msgstr "Forgot the password ?"
 
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:140
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:92
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:132
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:119
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:161
 msgid "Sign in"
 msgstr "Sign in"
 
 #: app/smarty/templates_c/9595785142c905cfbda304a10613f322a36f4143_0.file.pwreset.tpl.php:145
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:97
-#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:137
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:124
+#: app/smarty/templates_c/e16e8a0493dbf60407664c20351ff17e6da0c283_0.file.login.tpl.php:166
 msgid "keep me logged-in"
 msgstr "keep me logged-in"
 
 #: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:46
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:65
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:67
 msgid "Your profile"
 msgstr "Your profile"
 
@@ -2112,20 +2138,20 @@ msgstr "Your profile"
 msgid "Log out"
 msgstr "Log out"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:104
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:131
 msgid "New here ?"
 msgstr "New here ?"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:106
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:133
 msgid "Join Us"
 msgstr "Join Us"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:125
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:152
 msgid "Administration"
 msgstr "Administration"
 
 #: app/smarty/templates_c/9d43c7ab4bc4395dd56a6ab7ff6a3d8801a6948b_0.file.admin_user_view.tpl.php:42
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:84
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:90
 msgid "User name"
 msgstr "User name"
 
@@ -2421,20 +2447,26 @@ msgstr "testoutputput"
 msgid "Feel free to register your personal account"
 msgstr "Feel free to register your personal account"
 
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:65
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:67
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:64
+msgid "Register over the following networks"
+msgstr "Register over the following networks"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:98
+#| msgid "Your"
+msgid "or"
+msgstr "or"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:100
+#| msgid "Registered"
+msgid "Register locally"
+msgstr "Register locally"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:118
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:120
 msgid "Your name"
 msgstr "Your name"
 
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:82
-msgid ""
-"You password needs to be at least 8 chars long, containing numbers and "
-"alphabetic character"
-msgstr ""
-"You password needs to be at least 8 chars long, containing numbers and "
-"alphabetic character"
-
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:93
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:146
 msgid "Create your account"
 msgstr "Create your account"
 
@@ -2450,36 +2482,40 @@ msgstr "I received the activation email."
 msgid "Activate the account"
 msgstr "Activate the account"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:73
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:69
+msgid "Settings like your username and your email address are controlled by"
+msgstr "Settings like your username and your email address are controlled by"
+
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:78
 msgid "changing it will require a verification to be finalzed"
 msgstr "changing it will require a verification to be finalzed"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:80
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:86
 msgid "Your Name"
 msgstr "Your Name"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:81
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:87
 msgid "this is the name displayed on our page"
 msgstr "this is the name displayed on our page"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:88
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:94
 msgid "Current Password"
 msgstr "Current Password"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:89
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:95
 msgid "required for any change"
 msgstr "required for any change"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:96
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:102
 msgid "leave empty to not change it"
 msgstr "leave empty to not change it"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:110
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:116
 msgid "Update your profile"
 msgstr "Update your profile"
 
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:116
-#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:118
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:123
+#: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:125
 msgid "To the Extended Profile"
 msgstr "To the Extended Profile"
 
