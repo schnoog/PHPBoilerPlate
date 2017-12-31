@@ -7,6 +7,7 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 ### It includes
 - User registration
 - User management
+- OAuth implementation
 - Cookie and Session Management
 - Multilanguage support (i18n, gettext. Supplied languages: en_GB & de_DE)
 - XSS and CSRF protection
@@ -30,6 +31,8 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 - anti-xss -- anti-xss (https://github.com/voku/anti-xss |MIT license)
 - werx/validation -- werx/validation (https://github.com/werx/validation |MIT License)
 - jQuery Form Validator -- formvalidator.net (http://www.formvalidator.net |MIT License)
+- Hybridauth -- Hybridauth 3.0 (https://hybridauth.github.io |MIT License)
+- fontawesome -- Font Awesome (http://fontawesome.io/ |MIT License & SIL OFL 1.1)
 
 ## Requirements
 - A webserver capable to run php (with intl extension, PHP 5.6.0+, PDO extension , OpenSSL extension)
@@ -73,10 +76,7 @@ Copy the supplied sample configuration
 ```
 cp app/config/main_config.php.dist app/config/main_config.php
 ```
-#### Edit at least the following sections:
-- ///PAGE (set you page url and your ajax backend url)
-- ///DATABASE (setup your database credentials)
-- ///SECURITY (set the token to a random string)
+#### Edit the file according your needings
 
 ## Done
 You should now be able to access the system.
