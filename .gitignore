@@ -4,4 +4,6 @@ app/config/main_config.php
 composer.phar
 /vendor/
 Installed
+OverwriteDB
+DBStep
 

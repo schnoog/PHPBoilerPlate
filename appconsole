@@ -1,0 +1,235 @@
+#!/usr/bin/php
+<?php
+$LOCKFILE       = __DIR__ . "/Installed";
+$OVERWRITEDB    = __DIR__ . "/OverwriteDB";
+$DBSTEP         = __DIR__ . "/DBStep";
+$DISTCFG        = __DIR__ . "/app/config/main_config.php.dist";
+$CFG            = __DIR__ . "/app/config/main_config.php";
+$helper         = __DIR__ . "/app/func/helper.php";
+$SQLDIR         = __DIR__ . "/app/SETUP/";
+$le = "\n";
+$mydebug = true;
+
+
+require_once($helper);
+require_once(__DIR__ . "/vendor/autoload.php");
+
+
+
+if (isset($argv[1])){
+    switch ($argv[1]){
+        case "create":
+            if(runfirst($LOCKFILE)) CreateConfig($DISTCFG,$CFG);
+        break;
+        
+        case "db" :
+            $_SERVER['HTTP_HOST']='';
+            require_once($CFG);
+            CreateDatabaseStructure($OVERWRITEDB);    
+        
+        break;
+            
+
+        
+        
+    }
+}else{
+    echo "Usage:" . $le . "php "  . $argv[0] . " create". $le;
+    echo "copies the main_config.php.dist to main_config.php and sets the required salts" .$le .$le;
+    echo "php "  . $argv[0] . " db". $le;
+    echo "Takes the database credentials from main_config.php and installs the groud DB structure" . $le;
+    //if($mydebug) echo 
+    //if($mydebug) echo 
+    //if($mydebug) echo 
+}
+/**
+ *
+ *
+*/
+function errorcfg(){
+    global $Settings;
+    $Settings['error'] = "nodb";
+}
+
+/**
+ * 
+ * 
+ * 
+*/
+function importSQL($filename){
+    global $Settings,$le;
+
+        // Connect to MySQL server
+        $connection = mysqli_connect($Settings['db']['host'], $Settings['db']['user'], $Settings['db']['password'],$Settings['db']['dbname'],$Settings['db']['port']);
+        
+        if (mysqli_connect_errno())
+        	echo "Failed to connect to MySQL: " . mysqli_connect_error();
+        
+        // Temporary variable, used to store current query
+        $templine = '';
+        
+        
+        // Read in entire file
+        $fp = fopen($filename, 'r');
+        
+        // Loop through each line
+        while (($line = fgets($fp)) !== false) {
+        	// Skip it if it's a comment
+        	if (substr($line, 0, 2) == '--' || $line == '' || substr($line, 0, 3) == '/*!')
+        		continue;
+        
+        	// Add this line to the current segment
+        	$templine .= $line;
+        
+        	// If it has a semicolon at the end, it's the end of the query
+        	if (substr(trim($line), -1, 1) == ';') {
+        		// Perform the query
+if(!mysqli_query($connection, $templine)){
+    print('Error performing query \'<strong>' . $templine . '\': ' . mysqli_error() . '<br /><br />');
+}
+        		// Reset temp variable to empty
+        		$templine = '';
+        	}
+        }
+        
+        mysqli_close($connection);
+        fclose($fp);
+        echo "***SUCCESS*** " . $filename . " imported" . $le;
+        echo "****************************************************************************" . $le;
+
+}
+
+/** 
+ *
+ * 
+*/ 
+function populateDatabase($startstep){
+    set_time_limit(0);
+    global $le;
+    $ret=getSQLFiles($startstep);
+    ksort($ret,SORT_NUMERIC);
+    
+    foreach ($ret as $key => $value){
+
+    echo "****************************************************************************" . $le;
+    echo "***                                                                      ***" . $le;
+    echo "*** Importing " .$value . $le;
+
+
+                       importSQL($value);
+                       setLastDBInstallStep($key);
+ 
+    }
+
+    echo "****************************************************************************" . $le;
+    echo "***SUCCESS***            Database is now up to date            ***SUCCESS***" . $le;
+    echo "****************************************************************************" . $le;
+}
+/**
+ *
+ * Last DB Step, for incremential DB installation
+*/
+function getLastDBInstallStep(){
+    global $DBSTEP;
+    if (!file_exists($DBSTEP)) return 0;
+    $tmp= file_get_contents($DBSTEP);
+    return intval($tmp);
+}
+//////
+function setLastDBInstallStep($step){
+    global $DBSTEP;
+    if (!file_exists($DBSTEP)) touch($DBSTEP);
+    file_put_contents($DBSTEP, $step);
+}
+//////
+function getSQLFiles($startnum=1){
+    global $SQLDIR, $le;
+    $ret = array();
+    foreach (glob($SQLDIR . '[0-9]*_*.sql') as $filename)
+    {
+    list($numa,$nam) = explode("_",basename($filename));
+        $num = intval($numa);
+        if ($num >= $startnum){
+                $ret[$num] = $filename;
+        }
+
+    }
+    return $ret;    
+}
+/*
+ * Install the Database structure
+ *
+*/
+function CreateDatabaseStructure($OVERWRITEDB){
+        global $Settings,$mydebug,$le;
+        //error_reporting(0);
+//    DB::$encoding = 'utf8mb4'; // defaults to latin1 if omitted
+
+    // Test Connection
+    $conn = new mysqli($Settings['db']['host'], $Settings['db']['user'], $Settings['db']['password'],$Settings['db']['dbname'],$Settings['db']['port']);
+    if ($conn->connect_error) {
+        echo "****************************************************************************" . $le;
+        echo "***ERROR*** Unable to connect to the database server" . $le;
+        echo "***ERROR*** Please ensure you have entered the correct credentials in the main_config.php." . $le;
+        return false; 
+    }
+        echo "****************************************************************************" . $le;
+        echo "***SUCCESS*** database connection established" . $le;
+            $res = $conn->query("SHOW TABLES");
+            $bolIsInstalled = true;
+        if ($res->num_rows == 0) $bolIsInstalled = false;
+    $doinstall = true;
+    $laststep = getLastDBInstallStep();
+    if($bolIsInstalled){
+        if ($laststep == 0){ 
+            $doinstall = false;
+             if (!file_exists($OVERWRITEDB)){
+                    echo "****************************************************************************" . $le;
+                    echo "***ERROR*** The database is already populated and no step file available" . $le;            
+                    echo "***ERROR*** To allow the script to overwrite all tables, create the file " . $OVERWRITEDB . $le;            
+             }else{
+                    echo "***INFO*** The database is already populated but overwriting is allowed." . $le;            
+                    $doinstall = true;
+             }   
+        }else{
+                    echo "***INFO*** The database is already populated until including step ".$laststep."." . $le; 
+        }
+    }
+    
+    if ($doinstall){
+                    $startstep = $laststep + 1;
+                    echo "****************************************************************************" . $le;
+                    echo "***INFO*** Starting database population from beginning from step ". $startstep ."." . $le;
+                    populateDatabase($startstep);        
+    }    
+  
+}
+
+/**
+ * Copy the main_config.php.dist to main_config.php and add same salt
+ *
+*/
+function runfirst($LOCKFILE){
+    global $mydebug,$le;
+    if (file_exists($LOCKFILE)){
+        if($mydebug)echo "***NOTICE*** It seems the install script was launched before" . $le;
+        if($mydebug)echo "***NOTICE*** To enable a re-run, delete the following file: " . $LOCKFILE . $le;    
+        return false;
+    }else{
+        if($mydebug)echo "***NOTICE*** It seems the install script was launched the first time" . $le;
+        if($mydebug)echo "***NOTICE*** Creating lock file: " . $LOCKFILE . $le;    
+        touch($LOCKFILE,time());
+        return true;    
+    }
+}
+/*
+ * Copy the main_config.php.dist to main_config.php and add same salt
+ *
+*/
+function CreateConfig($dist,$target){
+    if (!file_exists($target)) copy($dist,$target);
+	$rs1 = random_str(64);
+	$rs2 = random_str(64);	
+	replace_in_file($target, 'SECSALT1', $rs1);
+	replace_in_file($target, 'SECSALT2', $rs2);    
+}

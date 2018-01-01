@@ -40,11 +40,17 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 - To use internationalisation, you may need to run locale-gen on your linux server
 - composer
 
+## Prerequisites
+- You need the login data to an empty mysql database
+- You need the login data to an email server
+
 ## Installation
 The installation directory should not be web accessible. Only the public folder needs to be web readable.
 
-### Get the files
-#### Composer based installation
+I suggest to install this boilerplate over composer.
+This will ensure random salts are defined for the hashing functions.
+
+### Install with composer
 To install the boilerplate, run this within the target directory
 ```
 composer create-project schnoog/boilerplate . dev-master
@@ -53,39 +59,49 @@ or set a target directory
 ```
 composer create-project schnoog/boilerplate targetdir dev-master
 ```
-
-#### GIT based installation
-- Clone the git repository to you server
+### Installation with git or Download
 - Open the console and change the directory to the target directory, where you want to create the checkout
+
+#### Get the files
 ```
-git clone https://github.com/schnoog/PHPBoilerPlate.git
+git clone https://github.com/schnoog/PHPBoilerPlate.git .
 ```
-#### Download based installation
-- Download the zip file and extract it to your webserver
+or download the package and unzip it
 ```
 https://github.com/schnoog/PHPBoilerPlate/archive/master.zip
 ```
-
-### Install the depencies
-Install the depencies by using composer
+#### Create the configuration
+This can be done by a little helper script
 ```
-$ composer install
+php ./appconsole create
 ```
-
-### Create a database (if you have one, skip this step)
-Create a database for your application.
-
-### Create the database structure and import the base data
-1. app/SETUP/01_UserTables.sql
-2. app/SETUP/02_PageStructure.sql
-3. app/SETUP/03_BaseData.sql
-
-### Setup your main.config.php
-Copy the supplied sample configuration
+or by hand
+copy the distributed example
 ```
 cp app/config/main_config.php.dist app/config/main_config.php
 ```
-#### Edit the file according your needings
+replace SECSALT1 and SECSALT2 with random strings by hand.
+
+## Configuration
+Please adjust the settings in
+```
+app/config/main_config.php
+```
+to match your needings.
+## Initialization
+Now you need to populate the database.
+This can be done by a little helper script
+```
+php ./appconsole db
+```
+or by importing each NUM_xxxx.sql file within app/SETUP/
+(starting from 001_....)
+```
+mysql DATABASE < app/SETUP/001_UserTables.sql
+mysql DATABASE < app/SETUP/002_PageStructure.sql
+...
+...
+```
 
 ## Done
 You should now be able to access the system.
@@ -93,7 +109,9 @@ The administrator login is
 Username: **test@test.de**
 Password: **1234abcd**
 
-
+## Updates
+I suggest to use the "php ./appconsole db" to install and update the database.
+This will set a database version tag to be able to update the database without dataloss in later releases.
 
 
 
