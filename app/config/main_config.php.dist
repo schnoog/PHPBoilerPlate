@@ -8,12 +8,18 @@ $navdata = array();
 $baseURL = ( (isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == "on")) ? "https://" : "http://" )  . $_SERVER['HTTP_HOST'] ."/";
 
 /**
- * GENERAL SETTINGS. 
- * 
+ *    ______                           __   _____      __  __  _                 
+ *   / ____/__  ____  ___  _________ _/ /  / ___/___  / /_/ /_(_)___  ____ ______
+ *  / / __/ _ \/ __ \/ _ \/ ___/ __ `/ /   \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
+ * / /_/ /  __/ / / /  __/ /  / /_/ / /   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
+ * \____/\___/_/ /_/\___/_/   \__,_/_/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
+ *                                                                 /____/        
  */
 
 /**
- * Main Page Settings 
+ * M A I N   P A G E   S E T T I N G S
+ * 
+ * Deside the title,description and projectname, no adjustment needed
  */
 $Settings['page'] = array(
             'baseurl' => $baseURL,
@@ -28,7 +34,9 @@ $Settings['page'] = array(
 
         );
 /**
- * Database Settings 
+ * D A T A B A S E   S E T T I N G S
+ * 
+ * Please adjust this according to your database enviroment 
  */
 $Settings['db']= array(
         'host'     => 'localhost',                  
@@ -39,17 +47,21 @@ $Settings['db']= array(
         'password' => 'Database Password'
         );
 /**
- * Some Security Settings
+ * S O M E   S E C U R I T Y     S E T T I N G S
+ * 
+ * Please ensure that "userpwsalt" is NOT 'SECSALTx' .If it is SECSALTx, enter a random string
  */
 $Settings['security'] = array (
                                 'pwminlength' => 8,
-                                'token' => array ('salt' => 'Please entere here a random string'),
+                                'token' => array ('salt' => 'SECSALT1'), 
                                 'pwblub' => 1,
                                 'md5hashcost' => 5,
                             );       
 
 /**
- * Mail Server Settings for phpmailer
+ * M A I L   S E R V E R   S E T T I N G S   F O R   P H P M A I L E R 
+ * 
+ * 
  */        
 $Settings['mail'] =array(
         'port'     => 587,
@@ -60,26 +72,26 @@ $Settings['mail'] =array(
         );
         
 /**
- * OAuth Settings
+ * O A U T H     S E T T I N G S
+ * 
+ * Please ensure that "userpwsalt" if NOT 'SECSALTx' .If it is SECSALTx, enter a random string
  */
 $Settings['oauth'] = array(
     "use" => false,
-    "userpwsalt" => 'here a nother randum string is required',
- "config" => [
-    //Location where to redirect users once they authenticate with a provider
-    'callback' => $baseURL . 'oauth/callback.php',
-
-    //Providers specifics
-    'providers' => [
-        'Twitter' => ['enabled' => true, 'keys' => [ 'key'    => '', 'secret' => '']],
-        'Google'   => ['enabled' => true, 'keys' => [ 'id'  => '', 'secret' => '']], //To populate in a similar way to Twitter
-        'Facebook' => ['enabled' => true, 'keys' => [ 'id'  => '', 'secret' => '']],   //And so on
-    ]
-]
-
+    "userpwsalt" => 'SECSALT2',                                     
+    "config" => [
+                    'callback' => $baseURL . 'oauth/callback.php',
+                    'providers' => [
+                                    'Twitter' => ['enabled' => false, 'keys' => [ 'key'    => '', 'secret' => '']],
+                                    'Google'   => ['enabled' => false, 'keys' => [ 'id'  => '', 'secret' => '']], 
+                                    'Facebook' => ['enabled' => false, 'keys' => [ 'id'  => '', 'secret' => '']],   
+                                    ]
+                ]
 );
 /**
- * Pages Routing Settings
+ * P A G E S   R O U T I N G    S E T T I N G S
+ * 
+ * This is the default setting. 
  */
 $Settings['pages'] = array(
         'landingpage' => 'start',
@@ -89,7 +101,9 @@ $Settings['pages'] = array(
         'notfound'    => 'notfound' //'notfound'
         );
 /**
- * Multilanguage i18n Settings
+ * M U L T I L A N G U A G E    I 1 8 N    S E T T I N G S
+ * 
+ * the array $datalist['languages'] is holding any valid language definition available
  */
 $Settings['langs']['available'] = array(
             'de_DE' => "Deutsch",
@@ -99,7 +113,8 @@ $Settings['langs']['default'] = 'en_GB';
 $Settings['langs']['active'] = 'en_GB'; //will be overwritten by user 
 $Settings['langs']['defaultdomain'] = 'core';
 /**
- * List of hardcoded Admin Pages
+ * H A R D   C O D E D    A D M I N   P A G E S
+ * 
  */
 $Settings['admin']['adminpages'] = array (
                             'admin_userman' => 'User-Management',
@@ -108,11 +123,17 @@ $Settings['admin']['adminpages'] = array (
                             );
                             
 /**
- * Root admin role (the one which can not be deleted by normal admins)
+ * R O O T    A D M I N     R O L E
+ * 
+ * (the one which can not be deleted by normal admins)
  */                            
 $Settings['admin']['rootrole'] = \Delight\Auth\Role::ADMIN;
 /**
+ * A L L    A D M I N    R O L E S
+ * 
  * All the admin roles (the groups which have access to the adminpages defined above)
+ * Please ensure that only roles are uncommented, which are also uncommented in the
+ * next section.
  */
 $Settings['admin']['adminroles'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::ADMIN,
@@ -140,7 +161,12 @@ $Settings['admin']['adminroles'] = array (  // Admin menue is visible
                             );
 
 /**
+ * A V A I L A B L E    R O L E S
+ * 
  * User roles. delight-im/auth has a lot of groups defined
+ * Uncomment all roles which should be available withtin you project.
+ * Please ensure to include all adminroles and also the rootrole
+ * (Otherwise you'll not be able to assign them to any user account)
  */
 $Settings['roles']['available'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::ADMIN,
@@ -166,27 +192,25 @@ $Settings['roles']['available'] = array (  // Admin menue is visible
                                     \Delight\Auth\Role::SUPER_MODERATOR,
 //                                    \Delight\Auth\Role::TRANSLATOR
                             );
-/**
- * 
- */
-
-
-
-
-
-
 
 /**
  * 
  * 
- * END OF SETTINGS
- * 
- * 
+ *  ______           _          __    _____      _   _   _                  
+ * |  ____|         | |        / _|  / ____|    | | | | (_)                 
+ * | |__   _ __   __| |   ___ | |_  | (___   ___| |_| |_ _ _ __   __ _ ___  
+ * |  __| | '_ \ / _` |  / _ \|  _|  \___ \ / _ \ __| __| | '_ \ / _` / __| 
+ * | |____| | | | (_| | | (_) | |    ____) |  __/ |_| |_| | | | | (_| \__ \ 
+ * |______|_| |_|\__,_|  \___/|_|   |_____/ \___|\__|\__|_|_| |_|\__, |___/ 
+ *                                                                __/ |     
+ *                                                               |___/      
+ *
+ * Don't change anything below..... 
  * 
  */
 $pagedata = $Settings['page'];                
 $mailsetting['OwnBoilderPlate']= $Settings['mail'];
-$navdata['login']['displayname'] = "Testuser";
+$navdata['login']['displayname'] = "Guest";
 $navdata['login']['social'] = $Settings['oauth']['use'];
 $navdata['login']['socialpage'] = $Settings['oauth']['config']['callback'];
 $navdata['login']['registerlink'] = "register";

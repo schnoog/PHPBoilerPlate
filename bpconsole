@@ -1,0 +1,40 @@
+#!/usr/bin/php
+<?php
+$LOCKFILE = __DIR__ . "/Installed";
+$DISTCFG  = __DIR__ . "/app/config/main_config.php.dist";
+$CFG      = __DIR__ . "/app/config/main_config.php";
+
+$helper   = __DIR__ . "/app/func/helper.php";
+require_once($helper);
+
+$le = "\n";
+
+/*
+ * Check if this script has been run before
+ * If so....die
+*/
+if (file_exists($LOCKFILE)){
+//echo "It seems the install script was launched before" . $le;
+//echo "To enable a re-run, delete the following file: " . $LOCKFILE ;
+}else{
+/*
+ * OK, let's set the LOCKFILE, so it can not be run again by error
+ *
+*/
+touch($LOCKFILE,time());
+/*
+ * Now copy the main_config.php.dist to main_config.php
+ *
+*/
+if (file_exists($CFG)){
+	//echo "Config file exists, no need to copy again";
+}else{
+	copy($DISTCFG,$CFG);
+	$rs1 = random_str(64);
+	$rs2 = random_str(64);	
+	replace_in_file($CFG, 'SECSALT1', $rs1);
+	replace_in_file($CFG, 'SECSALT2', $rs2);
+}
+
+//////////
+}

@@ -47,7 +47,11 @@ The installation directory should not be web accessible. Only the public folder 
 #### Composer based installation
 To install the boilerplate, run this within the target directory
 ```
-composer create-project schnoog/boilerplate . *
+composer create-project schnoog/boilerplate . dev-master
+```
+or set a target directory
+```
+composer create-project schnoog/boilerplate targetdir dev-master
 ```
 
 #### GIT based installation
