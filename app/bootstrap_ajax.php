@@ -4,18 +4,18 @@
 
 # Constants
 # Constants
-define('DEBUG', TRUE);
+define('DEBUG', true);
 define('APP_DIR', __DIR__);
 define('CACHE_DIR', APP_DIR . '/cache');
 define('VENDOR_DIR', APP_DIR . '/vendor');
 define('VIEW_DIR', APP_DIR . '/view');
 define('PAGE_DIR', APP_DIR . "/pages");
-define('TEMPLATE_DIR',APP_DIR . '/templates_ajax/');
-define('MAINTEMPLATE_DIR',APP_DIR . '/templates/');
-define('AJAXTEMPLATE_DIR',APP_DIR . '/templates_ajax/');
+define('TEMPLATE_DIR', APP_DIR . '/templates_ajax/');
+define('MAINTEMPLATE_DIR', APP_DIR . '/templates/');
+define('AJAXTEMPLATE_DIR', APP_DIR . '/templates_ajax/');
 define('FUNCTION_DIR', APP_DIR . "/func");
-define('AJAXFRONTEND_DIR',FRONTEND_DIR . "/");
-define('LANGUAGEDIR',APP_DIR.'/locale/');
+define('AJAXFRONTEND_DIR', FRONTEND_DIR . "/");
+define('LANGUAGEDIR', APP_DIR.'/locale/');
 
 
 require_once(APP_DIR . "/config/main_config.php");
@@ -27,7 +27,7 @@ $smarty->setConfigDir(APP_DIR . '/smarty/configs/');
 $smarty->setCacheDir(APP_DIR . '/smarty/cache/');
 $smarty->addPluginsDir(APP_DIR . '/smarty/plugins/');
 
-if (DEBUG){
+if (DEBUG) {
     $smarty->setCacheLifetime(1); // 30 seconds
 }
 //meekro
@@ -40,10 +40,11 @@ DB::$encoding = 'utf8mb4'; // defaults to latin1 if omitted
 
 // Anti XSS
 use voku\helper\AntiXSS;
+
 $antiXss = new AntiXSS();
 
 // Auth
-$connstring = $Settings['db']['dbdriver'] . ":host=" . $Settings['db']['host'] . ";dbname=" . $Settings['db']['dbname'] .";charset=utf8mb4" ; 
+$connstring = $Settings['db']['dbdriver'] . ":host=" . $Settings['db']['host'] . ";dbname=" . $Settings['db']['dbname'] .";charset=utf8mb4" ;
 $dbX = new \PDO($connstring, $Settings['db']['user'], $Settings['db']['password']);
 $auth = new \Delight\Auth\Auth($dbX);
 // Auth done, now set the navigation
@@ -52,8 +53,7 @@ $auth = new \Delight\Auth\Auth($dbX);
 
 // Include all php files in app/func
 
-foreach (glob(FUNCTION_DIR . '/*.php') as $filename)
-{
+foreach (glob(FUNCTION_DIR . '/*.php') as $filename) {
     include_once $filename;
 }
 // Set CSRFToken
@@ -65,8 +65,12 @@ $GlobalOutput=array();
 
 // UserSettings
 $ud=0;
-if (isset($_REQUEST['token'])) $tokencheck = checkCSRFToken($_REQUEST['token']);
-if ($tokencheck) list($dp,$userrole,$ud)= explode(":",$tokencheck);
+if (isset($_REQUEST['token'])) {
+    $tokencheck = checkCSRFToken($_REQUEST['token']);
+}
+if ($tokencheck) {
+    list($dp, $userrole, $ud)= explode(":", $tokencheck);
+}
 $UserSettings = new Usersettings($ud);
 $UserSettings->parseUserIn();
 $userlang="";

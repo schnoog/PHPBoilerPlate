@@ -6,4 +6,5 @@ composer.phar
 Installed
 OverwriteDB
 DBStep
+.php_cs.cache
 

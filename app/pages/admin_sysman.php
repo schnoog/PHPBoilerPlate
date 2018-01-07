@@ -1,12 +1,16 @@
 <?php
 
-if (!$auth->isLoggedIn()) forwartTo($Settings['pages']['noaccess']);
-if (!$_SESSION['isadmin']) forwartTo($Settings['pages']['noaccess']);
+if (!$auth->isLoggedIn()) {
+    forwartTo($Settings['pages']['noaccess']);
+}
+if (!$_SESSION['isadmin']) {
+    forwartTo($Settings['pages']['noaccess']);
+}
 
 $data ='';
 
-$data .= "<hr>" . print_r($_SESSION,true);
-$data .= "<hr>" . print_r($smarty,true);
+$data .= "<hr>" . print_r($_SESSION, true);
+$data .= "<hr>" . print_r($smarty, true);
 
 $userdump = DB::query('Select * from users ORDER by username ASC');
 
@@ -50,8 +54,8 @@ $pagedata['ajaxbackend'] = 'ajax_syswork.php';
 
 
 $data="";
-$smarty->assign("debugout",$data);
-$smarty->assign("sectoken",$secdata['curruser']['token']);
-$smarty->assign("navdata",$navdata);
-$smarty->assign("pagedata",$pagedata);
+$smarty->assign("debugout", $data);
+$smarty->assign("sectoken", $secdata['curruser']['token']);
+$smarty->assign("navdata", $navdata);
+$smarty->assign("pagedata", $pagedata);
 $smarty->display($page . ".tpl");

@@ -16,27 +16,27 @@ $usedlibs= array(
 );
 
 $docsecs = DB::query("Select * from docusections");
-for($x=0;$x<count($docsecs);$x++){
+for ($x=0;$x<count($docsecs);$x++) {
     $item = $docsecs[$x];
     $docsections[$item['id']] = $item;
 }
-foreach($docsections as $key => $item){
-        $ds[$key] = getEndLabel($key,$docsections,"","sectionlabel","parentid","--");
+foreach ($docsections as $key => $item) {
+    $ds[$key] = getEndLabel($key, $docsections, "", "sectionlabel", "parentid", "--");
 }
 
 $docs = DB::query("SELECT docu.* , docusections.* FROM `docu` INNER JOIN docusections on (docu.section = docusections.id) ORDER by docusections.parentid ASC");
 
-function DocTree(){
-    
+function DocTree()
+{
 }
 
 
 
 
 
-$smarty->assign("libs",$usedlibs);
+$smarty->assign("libs", $usedlibs);
 
-$smarty->assign("sectoken",$secdata['curruser']['token']);
-$smarty->assign("navdata",$navdata);
-$smarty->assign("pagedata",$pagedata);
+$smarty->assign("sectoken", $secdata['curruser']['token']);
+$smarty->assign("navdata", $navdata);
+$smarty->assign("pagedata", $pagedata);
 $smarty->display($page . ".tpl");

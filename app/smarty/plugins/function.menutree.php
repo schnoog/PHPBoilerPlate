@@ -35,7 +35,5 @@
  */
 function smarty_function_menuetreeXXXXXXX($params)
 {
-    return print_r($params,true);
-
-
+    return print_r($params, true);
 }

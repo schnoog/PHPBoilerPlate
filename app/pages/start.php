@@ -3,16 +3,16 @@
 /**
  * Template for standard pages
  * You have to chose whether you will use the ACL or not
- * -ACL: You don't need to add anything here. 
+ * -ACL: You don't need to add anything here.
  *  But be careful: Unless you've set the access groups, the page is accessible to everyone
- * -NoACL but admin only: 
- * Use the following lines to 
+ * -NoACL but admin only:
+ * Use the following lines to
  * (1) deny access to anyone not logged in
  * (2) deny access to anyone not in the admin groups (see main settings)
- * 1)if (!$auth->isLoggedIn()) forwartTo($Settings['pages']['noaccess']);   
+ * 1)if (!$auth->isLoggedIn()) forwartTo($Settings['pages']['noaccess']);
  * 2)if (!$_SESSION['isadmin']) forwartTo($Settings['pages']['noaccess']);
- * 
- * 
+ *
+ *
  */
 
 
@@ -36,11 +36,11 @@ $pagedata['ajaxbackend'] = 'ajaxbe_'.$page.'.php';
  *  This can, for example hold all JS functions and calls for the current page
  *  This will be the last "input" before </body>
 */
-$pagedata['js_to_include'] = 'js_' . $page . '.tpl'; 
+$pagedata['js_to_include'] = 'js_' . $page . '.tpl';
 /**
- * 
+ *
  *  If you're using a DOM element to place your output,you can set the div id here
- * 
+ *
 */
  $pagedata['replaceid'] = "maincontainer";
 
@@ -69,21 +69,21 @@ $usedlibs= array(
 );
 
 $docsecs = DB::query("Select * from docusections");
-for($x=0;$x<count($docsecs);$x++){
+for ($x=0;$x<count($docsecs);$x++) {
     $item = $docsecs[$x];
     $docsections[$item['id']] = $item;
 }
-foreach($docsections as $key => $item){
-        $ds[$key] = getEndLabel($key,$docsections,"","sectionlabel","parentid","--");
+foreach ($docsections as $key => $item) {
+    $ds[$key] = getEndLabel($key, $docsections, "", "sectionlabel", "parentid", "--");
 }
 
 $docs = DB::query("SELECT docu.* , docusections.* FROM `docu` INNER JOIN docusections on (docu.section = docusections.id) ORDER by docusections.parentid ASC");
 
-function DocTree(){
-    
+function DocTree()
+{
 }
 
-$smarty->assign("libs",$usedlibs);
+$smarty->assign("libs", $usedlibs);
 
 
 
@@ -97,7 +97,7 @@ $smarty->assign("libs",$usedlibs);
 
 
 
-$smarty->assign("sectoken",$secdata['curruser']['token']);
-$smarty->assign("navdata",$navdata);
-$smarty->assign("pagedata",$pagedata);
+$smarty->assign("sectoken", $secdata['curruser']['token']);
+$smarty->assign("navdata", $navdata);
+$smarty->assign("pagedata", $pagedata);
 $smarty->display($page . ".tpl");

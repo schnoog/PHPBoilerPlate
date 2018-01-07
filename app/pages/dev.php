@@ -2,7 +2,7 @@
 
 $validationstring = 'required|date[DD-MM-YYYY]|exactlength[5]';
 $validationstring = 'required|numeric';
-$tmp = getFormvalidatorString($validationstring,$preset='',$onlypreset='');
+$tmp = getFormvalidatorString($validationstring, $preset='', $onlypreset='');
 $data = $tmp;
 //$dd = array("erster teil", "zweiter teil", "3.teil","4.teil", "5.teil");
 //$data .= call_user_func_array("myte",$dd);
@@ -34,12 +34,12 @@ $flt[] = 'numeric';
 $filt = implode('|',$flt);
 
 //$filt = 'required|minlength[8]|numeric|maxlength[12]|lessthan[1234]|greaterthan[-314]';
-$data = "Ruleset: ".$filt."<br/>Resulting html control tags: <br />"; 
+$data = "Ruleset: ".$filt."<br/>Resulting html control tags: <br />";
 $data .= getFormvalidatorString($filt);
 $data .= "<br />";
 */
 
-$data = "<pre>" . print_r($_SESSION,true) . "</pre>";
+$data = "<pre>" . print_r($_SESSION, true) . "</pre>";
 //$data = "<pre>" . print_r($auth,true) . "</pre>";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -52,8 +52,8 @@ $data = "<pre>" . print_r($_SESSION,true) . "</pre>";
 //$data = "<pre>" . print_r($tmp,true). "</pre>";
 //$data .= "<h1>" . _('Delete this user') . "</h1>";
 
-$smarty->assign("debugout",$data);
-$smarty->assign("sectoken",$secdata['curruser']['token']);
-$smarty->assign("navdata",$navdata);
-$smarty->assign("pagedata",$pagedata);
+$smarty->assign("debugout", $data);
+$smarty->assign("sectoken", $secdata['curruser']['token']);
+$smarty->assign("navdata", $navdata);
+$smarty->assign("pagedata", $pagedata);
 $smarty->display("debugout.tpl");
