@@ -67,6 +67,9 @@ function socialRegister($identifier, $provider, $usermail, $username='')
         $msg = _('Your account was created, please log in now');
         setLoginProvider($provider, $usermail);
         setLoginProviderID($identifier, $usermail);
+        if($Settings['roles']['defaultnew'] >0){
+            $auth->admin()->addRoleForUserByEmail($usermail,$Settings['roles']['defaultnew']);
+        }
         // we have signed up a new user with the ID `$userId`
     } catch (\Delight\Auth\InvalidEmailException $e) {
         $msg = _('Invalid email address entered');

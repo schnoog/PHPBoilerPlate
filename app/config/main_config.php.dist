@@ -194,6 +194,14 @@ $Settings['roles']['available'] = array (  // Admin menue is visible
                             );
 
 /**
+ * D E F A U L T     R O L E  
+ * 
+ * Assigned to each new registered user
+ * If now role should be assigned to new user, set it to 0
+*/
+$Settings['roles']['defaultnew'] = \Delight\Auth\Role::CONSUMER;
+
+/**
  * 
  * 
  *  ______           _          __    _____      _   _   _                  

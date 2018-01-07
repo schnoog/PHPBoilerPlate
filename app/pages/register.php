@@ -32,6 +32,9 @@ if ($_REQUEST['action'] == "register") {
                 global $msg,$showregform;
                 fSendRegMail($_REQUEST['email'], $selector, $token);
                 $msg = _('Your account was created. An activation email was sent to you');
+                if($Settings['roles']['defaultnew'] >0){
+                    $auth->admin()->addRoleForUserByEmail($umail,$Settings['roles']['defaultnew']);
+                }
                 $showregform = false;
                 // send `$selector` and `$token` to the user (e.g. via email)
             });
