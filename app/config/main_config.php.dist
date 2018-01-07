@@ -56,6 +56,8 @@ $Settings['security'] = array (
                                 'token' => array ('salt' => 'SECSALT1'), 
                                 'pwblub' => 1,
                                 'md5hashcost' => 5,
+                                'allowregister' => true,
+                                'captcharegister' => true,
                             );       
 
 /**

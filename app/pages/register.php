@@ -10,6 +10,24 @@ if (!isset($_REQUEST['action'])) {
     $showregform = true;
 }
 
+if (!$Settings['security']['allowregister']){
+    forwartTo();
+    exit;
+}
+/**
+ * Captcha 
+ * 
+*/
+if ($Settings['security']['captcharegister']){
+$pagedata['headincludes']['css'][] = 'iconcaptcha.css';
+$pagedata['footincludes']['js'][]= 'iconcaptcha.js';
+$pagedata['showcaptcha'] = "1";
+$pagedata['js_to_include'] = 'js_captcha.tpl';
+
+}
+//////
+//////
+
 if ($_REQUEST['action'] == "register") {
     $showregform = false;
     $uname = $_REQUEST['InputName'];

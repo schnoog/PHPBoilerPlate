@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2017-12-31 23:23+0100\n"
-"PO-Revision-Date: 2017-12-31 23:26+0100\n"
+"POT-Creation-Date: 2018-01-07 16:38+0100\n"
+"PO-Revision-Date: 2018-01-07 16:41+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: de_DE\n"
@@ -1077,248 +1077,248 @@ msgstr "Zimbabwe"
 msgid "Åland Islands"
 msgstr "Åland Islands"
 
-#: app/func/mail.php:12 app/func/mail.php:36
+#: app/func/mail.php:16 app/func/mail.php:41
 msgid "Your"
 msgstr "Dein"
 
-#: app/func/mail.php:12
+#: app/func/mail.php:16
 msgid "account activation"
 msgstr "Benutzerkonto Aktivierung"
 
-#: app/func/mail.php:14
+#: app/func/mail.php:18
 msgid "In order to use our service, you'll need to activate your account"
 msgstr ""
 "Um unseren Dienst nutzen zu können, musst Du Dein Benutzerkonto aktivieren"
 
-#: app/func/mail.php:19
+#: app/func/mail.php:23
 msgid ""
 "Once you logged in, you will be able to enter the following activation codes."
 msgstr ""
 "Sobald Du angemeldet bist, kannst Du die untenstehenden Aktivierungs-Codes "
 "verwenden."
 
-#: app/func/mail.php:22
+#: app/func/mail.php:26
 msgid "After this, you'll be able to login again and use our service"
 msgstr ""
 "Danach wirst Du dazu in der Lage sein Dich anzumelden und unseren Dienst zu "
 "nutzen"
 
-#: app/func/mail.php:23 app/func/mail.php:47
+#: app/func/mail.php:27 app/func/mail.php:52
 msgid "Best regards"
 msgstr "Mit freundlichen Grüssen"
 
-#: app/func/mail.php:36
+#: app/func/mail.php:41
 msgid "password reset"
 msgstr "Passwort-Zurücksetzung"
 
-#: app/func/mail.php:38
+#: app/func/mail.php:43
 msgid "You just requested a password reset"
 msgstr "Du hast bereits einen Passwort-Zurücksetzung angefordert"
 
-#: app/func/mail.php:43
+#: app/func/mail.php:48
 msgid ""
 "Use the password forgotten function and enter the following activation codes"
 msgstr ""
 "Verwende die Passwort Vergessen Funktion und gebe die folgenden Aktivierungs-"
 "Codes ein"
 
-#: app/func/mail.php:46
+#: app/func/mail.php:51
 msgid "and set your new password"
 msgstr "und setze Dein neues Passwort"
 
-#: app/func/pageroute.php:30
+#: app/func/pageroute.php:33
 msgid "Security check failed."
 msgstr "Sicherheitsüberprüfung fehlgeschlagen."
 
-#: app/func/pageroute.php:31
+#: app/func/pageroute.php:34
 msgid "Please reload the page and try it again."
 msgstr "Bitte lade die Seite neu und versuche es nochmal."
 
-#: app/func/pageroute.php:38
+#: app/func/pageroute.php:41
 msgid "You're not allowed to enter this page."
 msgstr "Dir wird der Zugriff zu dieser Seite verwährt."
 
-#: app/func/pageroute.php:39
+#: app/func/pageroute.php:42
 msgid "Beg to the admin to receive more power."
 msgstr "Bettle beim Administrator um mehr Rechte."
 
-#: app/func/pageroute.php:53
+#: app/func/pageroute.php:57
 msgid "Page not found."
 msgstr "Die von Dir gesuchte Seite konnte nicht gefunden werden."
 
-#: app/func/pageroute.php:54
+#: app/func/pageroute.php:58
 msgid "Just visit an other page that exists."
 msgstr "Besuche einfach eine andere unserer Seiten."
 
-#: app/func/social.auth.php:21 app/pages/login.php:30 app/pages/pwreset.php:87
+#: app/func/social.auth.php:36 app/pages/login.php:28 app/pages/pwreset.php:65
 msgid "Email address unknown"
 msgstr "E-Mail Adresse unbekannt"
 
-#: app/func/social.auth.php:26 app/pages/login.php:35
+#: app/func/social.auth.php:40 app/pages/login.php:32
 msgid "Password wrong"
 msgstr "Falsches Passwort"
 
-#: app/func/social.auth.php:31 app/pages/login.php:40
+#: app/func/social.auth.php:44 app/pages/login.php:36
 msgid "Your account is not activated."
 msgstr "Dein Benutzerkonto ist nicht aktiviert."
 
-#: app/func/social.auth.php:36 app/func/social.auth.php:71
-#: app/pages/login.php:45 app/pages/login.php:82 app/pages/profile.php:73
-#: app/pages/profile.php:94 app/pages/profile.php:117 app/pages/pwreset.php:51
-#: app/pages/pwreset.php:102 app/pages/register.php:57
+#: app/func/social.auth.php:48 app/func/social.auth.php:87
+#: app/pages/login.php:40 app/pages/login.php:76 app/pages/profile.php:66
+#: app/pages/profile.php:84 app/pages/profile.php:102 app/pages/pwreset.php:44
+#: app/pages/pwreset.php:77 app/pages/register.php:74
 msgid "To many tries. Please come back later"
 msgstr "Zu viele Fehlversuche. Bitte probiere es später erneut"
 
-#: app/func/social.auth.php:51
+#: app/func/social.auth.php:67
 msgid "Your account was created, please log in now"
 msgstr "Dein Benutzerkonto  wurde erstellt und Du kannst Dich nun anmelden"
 
-#: app/func/social.auth.php:56 app/pages/profile.php:58
-#: app/pages/register.php:42
+#: app/func/social.auth.php:75 app/pages/profile.php:55
+#: app/pages/register.php:62
 msgid "Invalid email address entered"
 msgstr "Ungültige E-Mail Adresse eingegeben"
 
-#: app/func/social.auth.php:61 app/pages/register.php:47
+#: app/func/social.auth.php:79 app/pages/register.php:66
 msgid "Invalid password entered"
 msgstr "Ungültiges Passwort eingegeben"
 
-#: app/func/social.auth.php:66 app/pages/profile.php:62
-#: app/pages/register.php:52
+#: app/func/social.auth.php:83 app/pages/profile.php:58
+#: app/pages/register.php:70
 msgid "This email account is already registered"
 msgstr "Diese E-Mail Adresse wird bereits verwendet"
 
-#: app/func/vali.php:10 app/func/vali.php:42
+#: app/func/vali.php:9 app/func/vali.php:42
 msgid "{name} is a required field."
 msgstr "{name} wird benötigt."
 
-#: app/func/vali.php:11 app/func/vali.php:43
+#: app/func/vali.php:10 app/func/vali.php:43
 msgid "{name} must be a valid date."
 msgstr "{name} muss ein gültiges Datum sein."
 
-#: app/func/vali.php:12 app/func/vali.php:44
+#: app/func/vali.php:11 app/func/vali.php:44
 #, php-format
 msgid "{name} must be at least %s characters long."
 msgstr "{name} muss mindestens %s Zeichen lang sein."
 
-#: app/func/vali.php:13 app/func/vali.php:45
+#: app/func/vali.php:12 app/func/vali.php:45
 #, php-format
 msgid "{name} cannot be longer than %d characters."
 msgstr "{name} darf nich länger als %d zeichen sein."
 
-#: app/func/vali.php:14 app/func/vali.php:46
+#: app/func/vali.php:13 app/func/vali.php:46
 #, php-format
 msgid "{name} must be exactly %d characters."
 msgstr "{name} muss genau %d Zeichen lang sein."
 
-#: app/func/vali.php:15 app/func/vali.php:47
+#: app/func/vali.php:14 app/func/vali.php:47
 #, php-format
 msgid "{name} must be greater than %d."
 msgstr "{name} muss größer als %d sein."
 
-#: app/func/vali.php:16 app/func/vali.php:48
+#: app/func/vali.php:15 app/func/vali.php:48
 #, php-format
 msgid "{name} must be less than %d."
 msgstr "{name} muss kleiner als %d sein."
 
-#: app/func/vali.php:17 app/func/vali.php:49
+#: app/func/vali.php:16 app/func/vali.php:49
 msgid "{name} must only contain the letters A-Z."
 msgstr "{name} darf nur die Buchstaben A-Z enthalten."
 
-#: app/func/vali.php:18 app/func/vali.php:50
+#: app/func/vali.php:17 app/func/vali.php:50
 msgid "{name} must only contain the letters A-Z and numbers 0-9."
 msgstr "{name} darf nur die Buchstaben A-Z sowie die Ziffern 0-9 enthalten."
 
-#: app/func/vali.php:19 app/func/vali.php:51
+#: app/func/vali.php:18 app/func/vali.php:51
 msgid "{name} must be a whole number with no decimals"
 msgstr "{name} muss eine ganzstellige Zahl sein"
 
-#: app/func/vali.php:20 app/func/vali.php:52
+#: app/func/vali.php:19 app/func/vali.php:52
 msgid "{name} must be a number."
 msgstr "{name} muss eine Zahl sein."
 
-#: app/func/vali.php:21 app/func/vali.php:53
+#: app/func/vali.php:20 app/func/vali.php:53
 msgid "{name} must be numeric."
 msgstr "{name} muss eine Zahl sein."
 
-#: app/func/vali.php:22 app/func/vali.php:54
+#: app/func/vali.php:21 app/func/vali.php:54
 msgid "{name} must be a valid email address."
 msgstr "{name} muss eine gültige E-Mail Adresse sein."
 
-#: app/func/vali.php:23 app/func/vali.php:55
+#: app/func/vali.php:22 app/func/vali.php:55
 msgid "{name} must be a valid url."
 msgstr "{name} muss eine valide Url sein."
 
-#: app/func/vali.php:24 app/func/vali.php:56
+#: app/func/vali.php:23 app/func/vali.php:56
 msgid "{name} must be a valid phone number."
 msgstr "{name} muss eine gültige US Telefonnummer sein."
 
-#: app/func/vali.php:25 app/func/vali.php:57
+#: app/func/vali.php:24 app/func/vali.php:57
 msgid "{name} must be a valid zip code."
 msgstr "{name} muss eine gültige US Postleitzahl sein."
 
-#: app/func/vali.php:26 app/func/vali.php:58
+#: app/func/vali.php:25 app/func/vali.php:58
 #, php-format
 msgid "{name} must start with %s."
 msgstr "{name} muss mit %s beginnen."
 
-#: app/func/vali.php:27 app/func/vali.php:59
+#: app/func/vali.php:26 app/func/vali.php:59
 #, php-format
 msgid "{name} must end with %s."
 msgstr "{name} muss mit %s enden."
 
-#: app/func/vali.php:28 app/func/vali.php:60
+#: app/func/vali.php:27 app/func/vali.php:60
 #, php-format
 msgid "{name} must contain %s."
 msgstr "{name} muss %s enthalten."
 
-#: app/func/vali.php:29 app/func/vali.php:61
+#: app/func/vali.php:28 app/func/vali.php:61
 msgid "{name} is not in the correct format."
 msgstr "{name} hat nicht das richtige Format."
 
-#: app/pages/login.php:63
+#: app/pages/login.php:59
 msgid "Your account is now activated."
 msgstr "Dein Benutzerkonto ist nun aktiviert."
 
-#: app/pages/login.php:69
+#: app/pages/login.php:66
 msgid "The data you entered is invalid"
 msgstr "Die von Dir eingegebenen Daten sind ungültig"
 
-#: app/pages/login.php:74
+#: app/pages/login.php:70
 msgid "The data is expired"
 msgstr "Die von Dir eingegebenen Daten sind leider nicht mehr gültig"
 
-#: app/pages/login.php:78
+#: app/pages/login.php:73
 msgid "Already activated"
 msgstr "Dein Benutzerkonto ist bereits aktiviert"
 
-#: app/pages/login.php:100
+#: app/pages/login.php:85
 msgid "The activation email was sent"
 msgstr "Die Aktivierungs-E-Mail wurde Dir gesendet"
 
-#: app/pages/login.php:110 app/pages/login.php:115
+#: app/pages/login.php:94 app/pages/login.php:98
 msgid "No activation request active"
 msgstr "Es ist kein Aktivierungsprozess aktiv"
 
-#: app/pages/noaccess.php:3
+#: app/pages/noaccess.php:4
 msgid "You're not logged. Page access denied"
 msgstr ""
 "Die bist momentan nicht angemeldet. Der Zugriff auf die gewünschte Seite "
-"wird Dir verweigert."
+"wird Dir verweigert"
 
-#: app/pages/noaccess.php:4
+#: app/pages/noaccess.php:7
 msgid "Login, or if not yet done: Register."
 msgstr ""
-"Melde Dich an oder, so noch nicht geschehen: Registriere Dein Benutzerkonto"
+"Melde Dich an oder, so noch nicht geschehen: Registriere Dein Benutzerkonto."
 
-#: app/pages/profile.php:35
+#: app/pages/profile.php:34
 msgid "Your username was successfully changed"
 msgstr "Dein Benutzername wurde erfolgreich geändert"
 
-#: app/pages/profile.php:37
+#: app/pages/profile.php:36
 msgid "An error occured. Name change failed"
 msgstr "Es trat ein Fehler auf, der Benutzername konnte nicht geändert werden"
 
-#: app/pages/profile.php:44
+#: app/pages/profile.php:42
 msgid ""
 "Sorry, your entered new user name is invalid. Only alphanumeric characters "
 "and underscore are allowed"
@@ -1326,80 +1326,80 @@ msgstr ""
 "Der von Dir eingegebene Benutzername ist ungültig. Nur Buchstaben, Zahlen, "
 "Leerzeichen und Tief-/Bindestriche sind erlaubt"
 
-#: app/pages/profile.php:54
+#: app/pages/profile.php:52
 msgid "Your email address was updated. An activation email was sent to you"
 msgstr ""
 "Deine E-Mail Adresse wurde aktualisiert und eine Aktivierungs-Email an die "
 "neue Adresse gesendet"
 
-#: app/pages/profile.php:66
+#: app/pages/profile.php:61
 msgid "Your account is not activated. No profile change possible"
 msgstr ""
 "Dein Benutzerkonto ist nicht aktiviert. Änderungen daran sind nicht möglich"
 
-#: app/pages/profile.php:83
+#: app/pages/profile.php:76
 msgid "Your password was updated"
 msgstr "Dein Passwort wurde aktualisiert"
 
-#: app/pages/profile.php:90 app/pages/profile.php:110
+#: app/pages/profile.php:81 app/pages/profile.php:97
 msgid "The password you entered seems to be wrong"
 msgstr "Das von Dir eingegebene Passwort ist falsch"
 
-#: app/pages/profile.php:98
+#: app/pages/profile.php:88
 msgid "You have entered an unsafe password. Not updated"
 msgstr ""
 "Das von Dir eingegebene Passwort ist unsicher. Es fand keine Aktualisierung "
 "statt"
 
-#: app/pages/profile.php:101
+#: app/pages/profile.php:91
 msgid "The passwords do not match"
 msgstr "Die eingegebenen Passwörter stimmen nicht überein"
 
-#: app/pages/pwreset.php:24
+#: app/pages/pwreset.php:23
 msgid "Both new password aren't the same"
 msgstr "Die eingegebenen Passwörter stimmen nicht überein"
 
-#: app/pages/pwreset.php:29
+#: app/pages/pwreset.php:27
 msgid "Password resetted. You should now be able to login"
 msgstr ""
 "Passwort zurückgesetzt. Du solltest Dich nun mit Deinem neuen Passwort "
 "anmelden können"
 
-#: app/pages/pwreset.php:35
+#: app/pages/pwreset.php:32
 msgid "Invalid Security-data entered"
 msgstr "Ungültige Sicherheits-Codes eingegegen"
 
-#: app/pages/pwreset.php:39
+#: app/pages/pwreset.php:35
 msgid "Token expired"
 msgstr "Die eingegebenen Sicherheits-Codes sind nicht mehr gültig"
 
-#: app/pages/pwreset.php:43 app/pages/pwreset.php:97
+#: app/pages/pwreset.php:38 app/pages/pwreset.php:73
 msgid "Password reset disabled"
 msgstr "Passwort Zurücksetzen deaktiviert"
 
-#: app/pages/pwreset.php:47
+#: app/pages/pwreset.php:41
 msgid "Invalid (weak) password"
 msgstr "Ungültiges (schwaches) Passwort"
 
-#: app/pages/pwreset.php:77
+#: app/pages/pwreset.php:56
 msgid "The password reset email was sent"
 msgstr ""
 "Die Anweisung um Dein Passwort zurückzusetzen wurde Dir per E-Mail "
 "zugeschickt"
 
-#: app/pages/pwreset.php:92
+#: app/pages/pwreset.php:69
 msgid "Your account is not activated"
 msgstr "Dein Benutzerkonto ist nicht aktiviert"
 
-#: app/pages/register.php:20
+#: app/pages/register.php:38
 msgid "Passwords are not the same"
 msgstr "Die eingegebenen Passwörter stimmen nicht überein"
 
-#: app/pages/register.php:24
+#: app/pages/register.php:42
 msgid "Your password is not safe enough"
 msgstr "Dein Passwort ist nicht sicher genug"
 
-#: app/pages/register.php:34
+#: app/pages/register.php:52
 msgid "Your account was created. An activation email was sent to you"
 msgstr ""
 "Dein Benutzerkonto  wurde erstellt und die zur Aktivierung nötigen Schritte "
@@ -1690,7 +1690,7 @@ msgstr "Eintragsschlüssel"
 
 #: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:218
 msgid "Item desc."
-msgstr "Eintragsbeschreibung"
+msgstr "Eintragsbeschr."
 
 #: app/smarty/templates_c/19a36cb61c83abf1e32b60fcc6c99a94326b6145_0.file.admin_sys_profile.tpl.php:222
 msgid "Item default value"
@@ -1944,6 +1944,26 @@ msgstr "Wenn kein Wert gesetzt wird, wird folgender Standard verwendet:"
 msgid "Save setting"
 msgstr "Einstellung speichern"
 
+#: app/smarty/templates_c/63a54c0f5073cb5a2779102acc455fdd3d401e8f_0.file.js_captcha.tpl.php:48
+msgid "Select the image that does not belong in the row"
+msgstr "Wähle das Bild aus, das nicht in die Reihe passt"
+
+#: app/smarty/templates_c/63a54c0f5073cb5a2779102acc455fdd3d401e8f_0.file.js_captcha.tpl.php:51
+msgid "Great!"
+msgstr "Grossartig!"
+
+#: app/smarty/templates_c/63a54c0f5073cb5a2779102acc455fdd3d401e8f_0.file.js_captcha.tpl.php:53
+msgid "You do not appear to be a robot."
+msgstr "Du scheint kein Computer zu sein."
+
+#: app/smarty/templates_c/63a54c0f5073cb5a2779102acc455fdd3d401e8f_0.file.js_captcha.tpl.php:57
+msgid "Oops!"
+msgstr "Uuups!"
+
+#: app/smarty/templates_c/63a54c0f5073cb5a2779102acc455fdd3d401e8f_0.file.js_captcha.tpl.php:59
+msgid "You've selected the wrong image."
+msgstr "Du hast das falsche Bild gewählt."
+
 #: app/smarty/templates_c/64906fbac19cd8818301e460d79c2884cc2c4652_0.file.start.tpl.php:55
 msgid "Info"
 msgstr "Informationen"
@@ -2170,15 +2190,15 @@ msgstr "Dein Profil"
 msgid "Log out"
 msgstr "Abmelden"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:131
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:132
 msgid "New here ?"
 msgstr "Neu hier?"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:133
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:134
 msgid "Join Us"
 msgstr "Registriere Dich"
 
-#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:152
+#: app/smarty/templates_c/9a285240d0837bffd129edbb23359eb71b1bd7ab_0.file.navigation.tpl.php:154
 msgid "Administration"
 msgstr "Verwaltung"
 
@@ -2377,7 +2397,7 @@ msgstr "Zugangskontrolle"
 #: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:46
 #: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:49
 msgid "(visibility in menu)"
-msgstr "(sichtbarbeit im Menü)"
+msgstr "(Sichtbarbeit im Menü)"
 
 #: app/smarty/templates_c/c24772f3b741b15e039ab2b57bbc9a210640515a_0.file.admin_sys_navnewbox.tpl.php:54
 #: app/smarty/templates_c/f36f482d5fffc51763c1727e65eb3014fb41e05d_0.file.admin_sys_naveditbox.tpl.php:58
@@ -2498,7 +2518,12 @@ msgstr "Lokal registrieren"
 msgid "Your name"
 msgstr "Dein Benutzername"
 
-#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:146
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:148
+msgid "Solve the captcha first!"
+msgstr "Löse zuerst das Bilderrätsel!"
+
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:149
+#: app/smarty/templates_c/dce3be71aceaf1d67ef9b5269262160c69d21aaa_0.file.register.tpl.php:155
 msgid "Create your account"
 msgstr "Dein Benutzerkonto erstellen"
 
@@ -2518,7 +2543,7 @@ msgstr "Aktiviere das Benutzerkonto"
 msgid "Settings like your username and your email address are controlled by"
 msgstr ""
 "Einstellungen wie Dein Benutzername und Deine E-Mail-Adresse werden "
-"verwealtet von "
+"verwealtet von"
 
 #: app/smarty/templates_c/e8cab1644f604a75ccfd28499923ec16482f7c99_0.file.profile.tpl.php:78
 msgid "changing it will require a verification to be finalzed"
@@ -2561,33 +2586,33 @@ msgstr "Kompletter Name"
 msgid "full_name"
 msgstr "Kompletter Name"
 
-#: public/ajax/ajax_syswork.php:10 public/ajax/ajax_userwork.php:10
-#: public/ajax/ajaxbe_docman.php:25 public/ajax/ajaxbe_start.php:25
+#: public/ajax/ajax_syswork.php:11 public/ajax/ajax_userwork.php:11
+#: public/ajax/ajaxbe_docman.php:26 public/ajax/ajaxbe_start.php:26
 msgid "Security check failed, token missing"
 msgstr "Sicherheitsüberprüfung fehlgeschlagen. CSRF Überprüfung fehlgeschlagen"
 
-#: public/ajax/ajax_syswork.php:12 public/ajax/ajax_userwork.php:12
-#: public/ajax/ajax_userwork.php:68 public/ajax/ajax_userwork.php:108
-#: public/ajax/ajaxbe_docman.php:27 public/ajax/ajaxbe_profile_extended.php:27
-#: public/ajax/ajaxbe_start.php:27
+#: public/ajax/ajax_syswork.php:15 public/ajax/ajax_userwork.php:15
+#: public/ajax/ajax_userwork.php:79 public/ajax/ajax_userwork.php:121
+#: public/ajax/ajaxbe_docman.php:30 public/ajax/ajaxbe_profile_extended.php:30
+#: public/ajax/ajaxbe_start.php:30
 msgid "Security check failed"
 msgstr "Sicherheitsüberprüfung fehlgeschlagen"
 
-#: public/ajax/ajax_syswork.php:14 public/ajax/ajax_userwork.php:14
+#: public/ajax/ajax_syswork.php:19 public/ajax/ajax_userwork.php:19
 msgid "Security check failed, no guest access"
 msgstr ""
 "Sicherheitsüberprüfung fehlgeschlagen. Zugriff nur für angemeldete Benutzer"
 
-#: public/ajax/ajax_syswork.php:19 public/ajax/ajax_userwork.php:19
-#: public/ajax/ajaxbe_docman.php:47
+#: public/ajax/ajax_syswork.php:28 public/ajax/ajax_userwork.php:28
+#: public/ajax/ajaxbe_docman.php:54
 msgid "Not the right role"
 msgstr "Nicht die richtige Benutzergruppe"
 
-#: public/ajax/ajax_syswork.php:223
+#: public/ajax/ajax_syswork.php:251
 msgid "Page creation failed."
 msgstr "Seitenerstellung fehlgeschlagen."
 
-#: public/ajax/ajax_syswork.php:227
+#: public/ajax/ajax_syswork.php:255
 msgid "Invalid page name entered"
 msgstr "Ungültigen Seitennamen eingegeben"
 

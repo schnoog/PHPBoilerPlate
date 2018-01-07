@@ -28,6 +28,7 @@ function GetRoutedPage($preset="")
             }
         }
         if (!$safe) {
+            error_log("Sectoken failed");
             $page = $Settings['pages']['fatalpage'];
             $GlobalOutput['problem'][] = _('Security check failed.');
             $GlobalOutput['solution'][] = _('Please reload the page and try it again.');

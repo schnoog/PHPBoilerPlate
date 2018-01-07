@@ -53,7 +53,7 @@
                                                 
                                                 
                                                 
-            								 <form class="form" role="form" method="post" action="{$navdata.login.registerlink}" accept-charset="UTF-8" id="login-nav">
+            								 <form class="form" role="form" method="post" action="{$navdata.login.registerlink}" accept-charset="UTF-8" id="login-navr">
             										<div class="form-group">
                                                         <div class="form-group"> 
                                                             <label for="InputName">{'Your name'|gettext}</label>
@@ -63,19 +63,28 @@
                                                          <input type="hidden" name="action" value="register" />
                                                          
             											 <div class="form-group">
-                                                             <label for="exampleInputEmail2">{'Email address'|gettext}</label>
-            											     <input name="email" type="email" class="form-control" id="exampleInputEmail2" placeholder="{'Email address'|gettext}" required>
+                                                             <label for="exampleInputEmail2r">{'Email address'|gettext}</label>
+            											     <input name="email" type="email" class="form-control" id="exampleInputEmail2r" placeholder="{'Email address'|gettext}" required>
                                                          </div>
                                                          
                                                          <div class="form-group">
-                                                             <label for="exampleInputPassword2">{'New Password'|gettext}<br /><small>{"You password needs to be at least 8 chars long, containing numbers and alphabetic character"|gettext}</small></label>
-            											     <input name="password" type="password" class="form-control" id="exampleInputPassword2" placeholder="{'New Password'|gettext}" required>
+                                                             <label for="exampleInputPassword2a">{'New Password'|gettext}<br /><small>{"You password needs to be at least 8 chars long, containing numbers and alphabetic character"|gettext}</small></label>
+            											     <input name="password" type="password" class="form-control" id="exampleInputPassword2a" placeholder="{'New Password'|gettext}" required>
             											 </div>
                                                          <div class="form-group">
-                                                             <label for="exampleInputPassword2">{'Again the new Password'|gettext}</label>
-            											     <input name="password2" type="password" class="form-control" id="exampleInputPassword2" placeholder="{'Again the new Password'|gettext}" required>
+                                                             <label for="exampleInputPassword2b">{'Again the new Password'|gettext}</label>
+            											     <input name="password2" type="password" class="form-control" id="exampleInputPassword2b" placeholder="{'Again the new Password'|gettext}" required>
                                                          </div>
-                                                         <button class="btn btn-danger">{'Create your account'|gettext}</button>
+                                                            {if isset($pagedata.showcaptcha)}
+                                                                <div class="captcha-holder"></div>
+                                                                <button id="sndbtn" type="button" onclick="alert('{"Solve the captcha first!"|gettext}');" class="btn btn-danger">{'Create your account'|gettext}</button>
+
+                                                            {else}
+                                                         
+                                                         
+                                                                <button id="sndbtn" type="submit" class="btn btn-danger">{'Create your account'|gettext}</button>
+                                                         {/if}
+
             										</div>
                                             </form>
                                        
