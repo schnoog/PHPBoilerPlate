@@ -1,5 +1,21 @@
 <?php
 
+
+
+//////////////////////////////////////
+// If a user has changed his email address on the platform, this change will be reflected in the local database to prevent 
+// login problems and double registration
+//
+function socialLoginUpdate($identifier, $provider, $usermail)
+{
+    $res = DB::query("Select * from users WHERE loginprovider = %s AND loginproviderid = %s",$provider,$identifier);
+    if (DB::count() > 0){
+        $ud = $res[0];
+        if ($usermail != $ud['email']){
+            DB::query("Update users SET email = %s WHERE loginprovider = %s AND loginproviderid = %s",$usermail,$provider,$identifier);
+        }
+    }
+}
 //////////////////////////////////////
 //
 //
@@ -7,6 +23,7 @@ function socialLogin($identifier, $provider, $usermail)
 {
     global $auth, $Settings, $msg;
     $loginok = false;
+    socialLoginUpdate($identifier, $provider, $usermail);
     $userpass= "L0KAL". $provider . $Settings['oauth']["userpwsalt"] . $identifier;
     try {
         $rememberDuration = (int) (60 * 60 * 24 * 365.25);
@@ -14,7 +31,6 @@ function socialLogin($identifier, $provider, $usermail)
         $loginok = true;
         $_SESSION['oauth'] = $provider;
         $_SESSION['oauthid'] = $identifier;
-        setLoginProvider($provider, $usermail);
         // user is logged in
     } catch (\Delight\Auth\InvalidEmailException $e) {
         $msg = _('Email address unknown');
@@ -40,6 +56,7 @@ function socialLogin($identifier, $provider, $usermail)
 function socialRegister($identifier, $provider, $usermail, $username='')
 {
     global $auth, $Settings,$msg;
+    socialLoginUpdate($identifier, $provider, $usermail);
     if (strlen($username)<1) {
         $username = $usermail;
     }
@@ -48,7 +65,8 @@ function socialRegister($identifier, $provider, $usermail, $username='')
     try {
         $userId = $auth->register($usermail, $userpass, $username);
         $msg = _('Your account was created, please log in now');
-                        
+        setLoginProvider($provider, $usermail);
+        setLoginProviderID($identifier, $usermail);
         // we have signed up a new user with the ID `$userId`
     } catch (\Delight\Auth\InvalidEmailException $e) {
         $msg = _('Invalid email address entered');
@@ -107,4 +125,11 @@ function getAllowedSocialProviders()
 function setLoginProvider($provider, $usermail)
 {
     DB::query('UPDATE users SET loginprovider = %s WHERE email = %s', $provider, $usermail);
+}
+//////////////////////////////////////
+//
+//
+function setLoginProviderID($providerid, $usermail)
+{
+    DB::query('UPDATE users SET loginproviderid = %s WHERE email = %s', $providerid, $usermail);
 }
