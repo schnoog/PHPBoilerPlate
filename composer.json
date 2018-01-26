@@ -1,7 +1,6 @@
 {
     "name": "schnoog/boilerplate",
     "description": "A Webapp Boilerplate without the need to go OOP everywhere. Smarty, Bootstrap, OAuth, \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DUsermanagement, Registration, OAuth, InputValidation, One-Click (and one name entry) page creation.",
-    "version": "0.0.5",
     "type": "project",
     "license": "MIT License",
     "authors": [
@@ -19,7 +18,7 @@
 			"phpmailer/phpmailer": "^6.0",
 			"voku/anti-xss": "^3.1",
 			"werx/validation": "^1.3",
-			"hybridauth/hybridauth" : "v3.0.0-beta.4"
+			"hybridauth/hybridauth" : "v3.*"
 	},
 	"scripts": {
         "post-create-project-cmd": [
