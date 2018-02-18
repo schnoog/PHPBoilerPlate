@@ -3,7 +3,7 @@
     "description": "A Webapp Boilerplate without the need to go OOP everywhere. Smarty, Bootstrap, OAuth, \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DUsermanagement, Registration, OAuth, InputValidation, One-Click (and one name entry) page creation.",
     "version": "0.0.5",
     "type": "project",
-    "license": "MIT License",
+    "license": "MIT",
     "authors": [
         {
             "name": "schnoog",
