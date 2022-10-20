@@ -12,8 +12,8 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-	        "smarty/smarty": "~3.1",
-			"sergeytsalkov/meekrodb": "^2.3",
+	        "smarty/smarty": "^4",
+			"sergeytsalkov/meekrodb": "^2.4",
 			"delight-im/auth": "^7.2",
 			"phpmailer/phpmailer": "^6.0",
 			"voku/anti-xss": "^3.1",
