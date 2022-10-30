@@ -14,7 +14,7 @@
     "require": {
 	        "smarty/smarty": "^4",
 			"sergeytsalkov/meekrodb": "^2.4",
-			"delight-im/auth": "^7.2",
+			"delight-im/auth": "*",
 			"phpmailer/phpmailer": "^6.0",
 			"voku/anti-xss": "^3.1",
 			"werx/validation": "^1.3",

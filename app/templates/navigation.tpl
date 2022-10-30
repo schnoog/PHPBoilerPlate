@@ -75,9 +75,9 @@
             								 </form>
             							</div>
             							<div class="bottom text-center">
-                                        {if $navdata.showreg == true}
+                                        {if isset($navdata.showreg)}{if $navdata.showreg == true}
             								{'New here ?'|gettext} <a href="{$navdata.login.registerlink}"><b>{'Join Us'|gettext}</b></a>
-                                        {/if}
+                                        {/if}{/if}
             							</div>
                     </div>
             </li>

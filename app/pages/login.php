@@ -44,7 +44,8 @@ if ($_POST['action'] == "login") {
 
 if ($_POST['action'] == "logout") {
     if ($auth->isLoggedIn()) {
-        $auth->logOutAndDestroySession();
+        $auth->logOut();
+        $auth->destroySession();
     }
     forwartTo();
 }

@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `force_logout` MEDIUMINT(7) NOT NULL DEFAULT '0' AFTER `last_login`;
