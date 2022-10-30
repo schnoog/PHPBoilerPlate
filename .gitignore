@@ -8,3 +8,4 @@ OverwriteDB
 DBStep
 .php_cs.cache
 
+app/smarty/templates_c/*
