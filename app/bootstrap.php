@@ -58,11 +58,13 @@ $auth = new \Delight\Auth\Auth($dbX);
 // Auth done, now set the navigation
 $navdata['login']['loggedin']=false;
 $navdata['admin']['visible']=false;
+$navdata['showreg'] = $Settings['security']['allowregister'];
 
 
 
 if ($auth->isLoggedIn()) {
     $navdata['login']['loggedin']=true;
+    $navdata['showreg'] = false;
     $_SESSION['isadmin'] = false;
     $navdata['login']['displayname'] = $auth->getUsername();
     for ($x=0;$x < count($Settings['admin']['adminroles']);$x++) {
