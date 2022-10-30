@@ -35,7 +35,7 @@ A boilerplate for php webapps, without the need to go object orientated for ever
 - fontawesome -- Font Awesome (http://fontawesome.io/ |MIT License & SIL OFL 1.1)
 
 ## Requirements
-- A webserver capable to run php (with intl extension, PHP 5.6.0+, PDO extension , OpenSSL extension)
+- A webserver capable to run php (with intl extension, PHP 7.1+, PDO extension , OpenSSL extension)
 - A MySQL database server (MySQL 5.5.3+ or MariaDB 5.5.23+)
 - To use internationalisation, you may need to run locale-gen on your linux server
 - composer
