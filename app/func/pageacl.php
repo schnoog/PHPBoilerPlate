@@ -12,7 +12,8 @@ function IsPageBlockedByACL($page)
         $role= $_SESSION['auth_roles'];
     }
     $pagerule = DB::queryFirstRow("Select * from pages WHERE page = %s", $page);
-    if (count($pagerule)<1) {
+    if(!$pagerule) $pagerule = array();
+	if (count($pagerule)<1) {
         return false;
     }
     if ($pagerule['useacl'] == 0) {
