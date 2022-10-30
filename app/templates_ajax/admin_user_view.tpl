@@ -74,7 +74,7 @@
   <label class="control-label col-sm-2" for="userroles">{'User Roles'|gettext}</label>
   <div class="controls  col-sm-10">
   
-        {html_options  name=roles options=$roles selected=$userdata.roles_id_array class="form-control" multiple="" id="roles"}
+        {html_ncoptions  name=roles options=$roles selected=$userdata.roles_id_array class="form-control" multiple="" id="roles"}
   
 
     <p class="help-block"></p>

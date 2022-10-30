@@ -19,7 +19,7 @@
 </select>
 
 <label for="usermask">{'Access control to the page'|gettext}<br /><small>{'If no group is selected, access is garanted to everyone'|gettext}</small></label>
-{html_options  name=roles options=$roles selected=$page.usermask_array class="form-control" multiple="" id="usermask" size="10"}
+{html_ncoptions  name=roles options=$roles selected=$page.usermask_array class="form-control" multiple="" id="usermask" size="10"}
 
 <button type="button" class="form-control btn btn-success" onclick="savepageitem();">{'Save your changes'|gettext}</button><br />
 <button type="button" class="form-control btn btn-warning" onclick="showpages();">{'Cancel'|gettext}</button>
