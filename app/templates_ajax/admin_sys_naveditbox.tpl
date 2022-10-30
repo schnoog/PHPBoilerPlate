@@ -11,7 +11,7 @@
     {html_options name="nav_parentid" id="nav_parentid" options=$navitems  selected=$nav.nav_parentid class="form-control"}
 
 <label for="nav_allowedmask">{'Access control'|gettext}<br /><small>{'(visibility in menu)'|gettext}</small></label>
-        {html_options  name="roles" size="{$roles|@count}" options=$roles selected=$nav.nav_allowedmask_array class="form-control" multiple="" size="10" id="nav_allowedmask" }
+        {html_ncoptions  name="roles" size="{$roles|@count}" options=$roles selected=$nav.nav_allowedmask_array class="form-control" multiple="" size="10" id="nav_allowedmask" }
 <input type="hidden" id="nav_allowedmask_sum" value="{$nav.nav_allowedmask}" class="form-control">
 <label for="nav_target">{'Target'|gettext}<br /><small>{'Full-url for extern targets, internal only pagename'|gettext}</small></label>
 <input type="text" id="nav_target" value="{$nav.nav_target}" class="form-control" required>

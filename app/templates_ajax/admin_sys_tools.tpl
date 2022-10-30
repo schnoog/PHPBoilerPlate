@@ -4,7 +4,7 @@
 
 
 <label for="usermask">{'Access control to the page'|gettext}<br /><small>{'If no group is selected, access is garanted to everyone'|gettext}</small></label>
-{html_options  name=roles options=$roles  class="form-control" multiple="" id="usermask" size="10"}
+{html_ncoptions  name=roles options=$roles  class="form-control" multiple="" id="usermask" size="10"}
 <input type="text" class="form-control" id="masksum" />
 <button type="button" class="form-control btn btn-success" onclick="calculate();">{'Get the number'|gettext}</button><br />
 
@@ -38,12 +38,6 @@ $(document).ready(function() {
              $('option').mousedown(function(e) {
                 e.preventDefault();
                 $(this).prop('selected', !$(this).prop('selected'));
-                if($(this).prop('selected')){
-                    $(this).css('backgroundColor','green');
-
-                }else{
-                    $(this).css('backgroundColor','white');
-                }
                 calculate();
                 return false;
             } );
